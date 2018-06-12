@@ -1,0 +1,766 @@
+L4 | Sat Jun  2 13:14:12 2018 (249 ms) | general | Server starting up
+L4 | Sat Jun  2 13:14:12 2018 (267 ms) | general | Server using version number 105
+L4 | Sat Jun  2 13:14:12 2018 (318 ms) | general | lifeLog starting up
+L4 | Sat Jun  2 13:14:12 2018 (326 ms) | general | Backup system inited.  Backups on = 1, target hour UTC = 8, current hour UTC = 18, last backup was 424434.236667 hours ago
+L4 | Sat Jun  2 13:14:13 2018 (574 ms) | general | foodLog starting up
+L4 | Sat Jun  2 13:14:13 2018 (574 ms) | general | failureLog starting up
+L4 | Sat Jun  2 13:14:13 2018 (625 ms) | general | No lookTimes present, not cleaning map.db
+L4 | Sat Jun  2 13:14:13 2018 (664 ms) | general | No lookTimes present, not cleaning mapTime.db
+L4 | Sat Jun  2 13:14:13 2018 (709 ms) | general | No lookTimes present, not cleaning biome.db
+L4 | Sat Jun  2 13:14:13 2018 (773 ms) | general | No lookTimes present, not cleaning floor.db
+L4 | Sat Jun  2 13:14:13 2018 (815 ms) | general | No lookTimes present, not cleaning floorTime.db
+L4 | Sat Jun  2 13:14:13 2018 (856 ms) | general | Biome 0:  Found 14 natural objects with total weight 15.000000
+L4 | Sat Jun  2 13:14:13 2018 (856 ms) | general | Biome 3:  Found 11 natural objects with total weight 6.520000
+L4 | Sat Jun  2 13:14:13 2018 (856 ms) | general | Biome 4:  Found 8 natural objects with total weight 3.660000
+L4 | Sat Jun  2 13:14:13 2018 (856 ms) | general | Biome 5:  Found 9 natural objects with total weight 4.551000
+L4 | Sat Jun  2 13:14:13 2018 (856 ms) | general | Biome 2:  Found 8 natural objects with total weight 4.875000
+L4 | Sat Jun  2 13:14:13 2018 (856 ms) | general | Biome 1:  Found 5 natural objects with total weight 7.000000
+L4 | Sat Jun  2 13:14:13 2018 (856 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 13:14:13 2018 (898 ms) | general | ...0 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 13:14:13 2018 (899 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 13:14:13 2018 (900 ms) | general | Listening for connection on port 8005
+L4 | Sat Jun  2 13:14:19 2018 (907 ms) | general | Apocalypse check:  New remote apocalypse:  5.
+L4 | Sat Jun  2 14:36:56 2018 (77 ms) | general | Quit received for unix
+L4 | Sat Jun  2 14:36:56 2018 (77 ms) | general | Cleaning up on quit...
+L4 | Sat Jun  2 14:36:56 2018 (78 ms) | general | Cleaning up map database on server shutdown.
+L4 | Sat Jun  2 14:36:56 2018 (139 ms) | general | ...0 useDummy/variable objects present that were changed back into their unused parent.
+L4 | Sat Jun  2 14:36:56 2018 (144 ms) | general | ...0 contained useDummy/variable objects present and changed back to usused parent.
+L4 | Sat Jun  2 14:36:56 2018 (144 ms) | general | Now running normal map clean...
+L4 | Sat Jun  2 14:36:56 2018 (144 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 14:36:56 2018 (188 ms) | general | ...0 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 14:36:56 2018 (191 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 14:36:56 2018 (193 ms) | general | Done.
+L4 | Sat Jun  2 15:02:49 2018 (689 ms) | general | Server starting up
+L4 | Sat Jun  2 15:02:49 2018 (689 ms) | general | Server using version number 105
+L4 | Sat Jun  2 15:02:49 2018 (696 ms) | general | lifeLog starting up
+L4 | Sat Jun  2 15:02:49 2018 (696 ms) | general | Backup system inited.  Backups on = 1, target hour UTC = 8, current hour UTC = 20, last backup was 424436.046944 hours ago
+L4 | Sat Jun  2 15:02:49 2018 (913 ms) | general | foodLog starting up
+L4 | Sat Jun  2 15:02:49 2018 (913 ms) | general | failureLog starting up
+L4 | Sat Jun  2 15:02:49 2018 (919 ms) | general | No lookTimes present, not cleaning map.db
+L4 | Sat Jun  2 15:02:49 2018 (956 ms) | general | No lookTimes present, not cleaning mapTime.db
+L4 | Sat Jun  2 15:02:49 2018 (994 ms) | general | No lookTimes present, not cleaning biome.db
+L4 | Sat Jun  2 15:02:50 2018 (60 ms) | general | No lookTimes present, not cleaning floor.db
+L4 | Sat Jun  2 15:02:50 2018 (103 ms) | general | No lookTimes present, not cleaning floorTime.db
+L4 | Sat Jun  2 15:02:50 2018 (145 ms) | general | Biome 0:  Found 14 natural objects with total weight 15.000000
+L4 | Sat Jun  2 15:02:50 2018 (146 ms) | general | Biome 3:  Found 11 natural objects with total weight 6.520000
+L4 | Sat Jun  2 15:02:50 2018 (146 ms) | general | Biome 4:  Found 8 natural objects with total weight 3.660000
+L4 | Sat Jun  2 15:02:50 2018 (146 ms) | general | Biome 5:  Found 9 natural objects with total weight 4.551000
+L4 | Sat Jun  2 15:02:50 2018 (146 ms) | general | Biome 2:  Found 8 natural objects with total weight 4.875000
+L4 | Sat Jun  2 15:02:50 2018 (146 ms) | general | Biome 1:  Found 5 natural objects with total weight 7.000000
+L4 | Sat Jun  2 15:02:50 2018 (146 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 15:02:50 2018 (182 ms) | general | ...0 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:02:50 2018 (182 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:02:50 2018 (182 ms) | general | Listening for connection on port 8005
+L4 | Sat Jun  2 15:03:03 2018 (428 ms) | general | Got connection
+L4 | Sat Jun  2 15:03:03 2018 (437 ms) | general | Listening for another connection on port 8005
+L4 | Sat Jun  2 15:03:04 2018 (407 ms) | general | Got new player logged in
+L4 | Sat Jun  2 15:03:04 2018 (465 ms) | general | New player sdfgh connected as player 2
+L4 | Sat Jun  2 15:03:04 2018 (467 ms) | general | Need to send updates about these 1 players: 2, 
+L4 | Sat Jun  2 15:03:04 2018 (468 ms) | general | Sending updates about these 1 players: 2, 
+L4 | Sat Jun  2 15:03:04 2018 (505 ms) | general | 0/1 players were sent part of a 1-line PU: 
+L4 | Sat Jun  2 15:03:06 2018 (272 ms) | general | Got client message from 2: MOVE 0 0 1 0
+L4 | Sat Jun  2 15:03:06 2018 (539 ms) | general | Need to send updates about these 1 players: 2, 
+L4 | Sat Jun  2 15:03:06 2018 (539 ms) | general | Sending updates about these 1 players: 2, 
+L4 | Sat Jun  2 15:03:06 2018 (539 ms) | general | 1/1 players were sent part of a 1-line PU: 2, 
+L4 | Sat Jun  2 15:03:07 2018 (580 ms) | general | Got client message from 2: MOVE 0 0 1 0 2 0 3 0
+L4 | Sat Jun  2 15:03:08 2018 (381 ms) | general | Need to send updates about these 1 players: 2, 
+L4 | Sat Jun  2 15:03:08 2018 (381 ms) | general | Sending updates about these 1 players: 2, 
+L4 | Sat Jun  2 15:03:08 2018 (381 ms) | general | 1/1 players were sent part of a 1-line PU: 2, 
+L4 | Sat Jun  2 15:03:19 2018 (236 ms) | general | Quit received for unix
+L4 | Sat Jun  2 15:03:19 2018 (236 ms) | general | Cleaning up on quit...
+L4 | Sat Jun  2 15:03:19 2018 (237 ms) | general | Cleaning up map database on server shutdown.
+L4 | Sat Jun  2 15:03:19 2018 (285 ms) | general | ...0 useDummy/variable objects present that were changed back into their unused parent.
+L4 | Sat Jun  2 15:03:19 2018 (288 ms) | general | ...0 contained useDummy/variable objects present and changed back to usused parent.
+L4 | Sat Jun  2 15:03:19 2018 (289 ms) | general | Now running normal map clean...
+L4 | Sat Jun  2 15:03:19 2018 (290 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 15:03:19 2018 (339 ms) | general | ...2 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:03:19 2018 (340 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:03:19 2018 (342 ms) | general | Done.
+L4 | Sat Jun  2 15:04:20 2018 (659 ms) | general | Server starting up
+L4 | Sat Jun  2 15:04:20 2018 (659 ms) | general | Server using version number 105
+L4 | Sat Jun  2 15:04:20 2018 (667 ms) | general | lifeLog starting up
+L4 | Sat Jun  2 15:04:20 2018 (667 ms) | general | Backup system inited.  Backups on = 1, target hour UTC = 8, current hour UTC = 20, last backup was 424436.072222 hours ago
+L4 | Sat Jun  2 15:04:20 2018 (789 ms) | general | foodLog starting up
+L4 | Sat Jun  2 15:04:20 2018 (789 ms) | general | failureLog starting up
+L4 | Sat Jun  2 15:04:20 2018 (800 ms) | general | No lookTimes present, not cleaning map.db
+L4 | Sat Jun  2 15:04:20 2018 (843 ms) | general | No lookTimes present, not cleaning mapTime.db
+L4 | Sat Jun  2 15:04:20 2018 (881 ms) | general | No lookTimes present, not cleaning biome.db
+L4 | Sat Jun  2 15:04:20 2018 (948 ms) | general | No lookTimes present, not cleaning floor.db
+L4 | Sat Jun  2 15:04:20 2018 (987 ms) | general | No lookTimes present, not cleaning floorTime.db
+L4 | Sat Jun  2 15:04:21 2018 (36 ms) | general | Biome 0:  Found 14 natural objects with total weight 15.000000
+L4 | Sat Jun  2 15:04:21 2018 (36 ms) | general | Biome 3:  Found 11 natural objects with total weight 6.520000
+L4 | Sat Jun  2 15:04:21 2018 (36 ms) | general | Biome 4:  Found 8 natural objects with total weight 3.660000
+L4 | Sat Jun  2 15:04:21 2018 (36 ms) | general | Biome 5:  Found 9 natural objects with total weight 4.551000
+L4 | Sat Jun  2 15:04:21 2018 (36 ms) | general | Biome 2:  Found 8 natural objects with total weight 4.875000
+L4 | Sat Jun  2 15:04:21 2018 (36 ms) | general | Biome 1:  Found 5 natural objects with total weight 7.000000
+L4 | Sat Jun  2 15:04:21 2018 (36 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 15:04:21 2018 (78 ms) | general | ...0 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:04:21 2018 (78 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:04:21 2018 (78 ms) | general | Listening for connection on port 8005
+L4 | Sat Jun  2 15:04:47 2018 (275 ms) | general | Got connection
+L4 | Sat Jun  2 15:04:47 2018 (275 ms) | general | Listening for another connection on port 8005
+L4 | Sat Jun  2 15:04:48 2018 (273 ms) | general | Got new player logged in
+L4 | Sat Jun  2 15:04:48 2018 (274 ms) | general | New player sdfgh connected as player 3
+L4 | Sat Jun  2 15:04:48 2018 (276 ms) | general | Need to send updates about these 1 players: 3, 
+L4 | Sat Jun  2 15:04:48 2018 (279 ms) | general | Sending updates about these 1 players: 3, 
+L4 | Sat Jun  2 15:04:48 2018 (337 ms) | general | 0/1 players were sent part of a 1-line PU: 
+L4 | Sat Jun  2 15:04:49 2018 (746 ms) | general | Got client message from 3: MOVE 0 0 1 0
+L4 | Sat Jun  2 15:04:50 2018 (13 ms) | general | Need to send updates about these 1 players: 3, 
+L4 | Sat Jun  2 15:04:50 2018 (13 ms) | general | Sending updates about these 1 players: 3, 
+L4 | Sat Jun  2 15:04:50 2018 (13 ms) | general | 1/1 players were sent part of a 1-line PU: 3, 
+L4 | Sat Jun  2 15:04:55 2018 (458 ms) | general | Quit received for unix
+L4 | Sat Jun  2 15:04:55 2018 (458 ms) | general | Cleaning up on quit...
+L4 | Sat Jun  2 15:04:55 2018 (459 ms) | general | Cleaning up map database on server shutdown.
+L4 | Sat Jun  2 15:04:55 2018 (501 ms) | general | ...0 useDummy/variable objects present that were changed back into their unused parent.
+L4 | Sat Jun  2 15:04:55 2018 (501 ms) | general | ...0 contained useDummy/variable objects present and changed back to usused parent.
+L4 | Sat Jun  2 15:04:55 2018 (501 ms) | general | Now running normal map clean...
+L4 | Sat Jun  2 15:04:55 2018 (501 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 15:04:55 2018 (545 ms) | general | ...1 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:04:55 2018 (545 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:04:55 2018 (549 ms) | general | Done.
+L4 | Sat Jun  2 15:06:54 2018 (745 ms) | general | Server starting up
+L4 | Sat Jun  2 15:06:54 2018 (745 ms) | general | Server using version number 105
+L4 | Sat Jun  2 15:06:54 2018 (754 ms) | general | lifeLog starting up
+L4 | Sat Jun  2 15:06:54 2018 (754 ms) | general | Backup system inited.  Backups on = 1, target hour UTC = 8, current hour UTC = 20, last backup was 424436.115000 hours ago
+L4 | Sat Jun  2 15:06:54 2018 (875 ms) | general | foodLog starting up
+L4 | Sat Jun  2 15:06:54 2018 (875 ms) | general | failureLog starting up
+L4 | Sat Jun  2 15:06:54 2018 (880 ms) | general | No lookTimes present, not cleaning map.db
+L4 | Sat Jun  2 15:06:54 2018 (931 ms) | general | No lookTimes present, not cleaning mapTime.db
+L4 | Sat Jun  2 15:06:54 2018 (976 ms) | general | No lookTimes present, not cleaning biome.db
+L4 | Sat Jun  2 15:06:55 2018 (54 ms) | general | No lookTimes present, not cleaning floor.db
+L4 | Sat Jun  2 15:06:55 2018 (96 ms) | general | No lookTimes present, not cleaning floorTime.db
+L4 | Sat Jun  2 15:06:55 2018 (139 ms) | general | Biome 0:  Found 14 natural objects with total weight 15.000000
+L4 | Sat Jun  2 15:06:55 2018 (139 ms) | general | Biome 3:  Found 11 natural objects with total weight 6.520000
+L4 | Sat Jun  2 15:06:55 2018 (139 ms) | general | Biome 4:  Found 8 natural objects with total weight 3.660000
+L4 | Sat Jun  2 15:06:55 2018 (139 ms) | general | Biome 5:  Found 9 natural objects with total weight 4.551000
+L4 | Sat Jun  2 15:06:55 2018 (139 ms) | general | Biome 2:  Found 8 natural objects with total weight 4.875000
+L4 | Sat Jun  2 15:06:55 2018 (139 ms) | general | Biome 1:  Found 5 natural objects with total weight 7.000000
+L4 | Sat Jun  2 15:06:55 2018 (139 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 15:06:55 2018 (178 ms) | general | ...0 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:06:55 2018 (178 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:06:55 2018 (179 ms) | general | Listening for connection on port 8005
+L4 | Sat Jun  2 15:07:08 2018 (185 ms) | general | Got connection
+L4 | Sat Jun  2 15:07:08 2018 (186 ms) | general | Listening for another connection on port 8005
+L4 | Sat Jun  2 15:07:09 2018 (188 ms) | general | Got new player logged in
+L4 | Sat Jun  2 15:07:09 2018 (189 ms) | general | New player sdfgh connected as player 4
+L4 | Sat Jun  2 15:07:09 2018 (191 ms) | general | Need to send updates about these 1 players: 4, 
+L4 | Sat Jun  2 15:07:09 2018 (195 ms) | general | Sending updates about these 1 players: 4, 
+L4 | Sat Jun  2 15:07:09 2018 (234 ms) | general | 0/1 players were sent part of a 1-line PU: 
+L4 | Sat Jun  2 15:07:10 2018 (529 ms) | general | Got client message from 4: MOVE 0 0 1 0
+L4 | Sat Jun  2 15:07:10 2018 (796 ms) | general | Need to send updates about these 1 players: 4, 
+L4 | Sat Jun  2 15:07:10 2018 (796 ms) | general | Sending updates about these 1 players: 4, 
+L4 | Sat Jun  2 15:07:10 2018 (796 ms) | general | 1/1 players were sent part of a 1-line PU: 4, 
+L4 | Sat Jun  2 15:07:10 2018 (801 ms) | general | Got client message from 4: MOVE 0 0 1 -1 1 -2
+L4 | Sat Jun  2 15:07:11 2018 (676 ms) | general | Got client message from 4: MOVE 0 0 0 -1 0 -2
+L4 | Sat Jun  2 15:07:12 2018 (854 ms) | general | Need to send updates about these 1 players: 4, 
+L4 | Sat Jun  2 15:07:12 2018 (855 ms) | general | Sending updates about these 1 players: 4, 
+L4 | Sat Jun  2 15:07:12 2018 (855 ms) | general | 1/1 players were sent part of a 1-line PU: 4, 
+L4 | Sat Jun  2 15:07:19 2018 (891 ms) | general | Closing connection to player 4 on error (cause: Socket write failed)
+L4 | Sat Jun  2 15:07:19 2018 (891 ms) | general | 0 remaining player(s) alive on server 
+L4 | Sat Jun  2 15:07:19 2018 (891 ms) | general | Failed to read sequence number from stats server response.
+L4 | Sat Jun  2 15:07:19 2018 (891 ms) | general | Failed to read sequence number from lineage server response.
+L4 | Sat Jun  2 15:08:13 2018 (276 ms) | general | Quit received for unix
+L4 | Sat Jun  2 15:08:13 2018 (276 ms) | general | Cleaning up on quit...
+L4 | Sat Jun  2 15:08:13 2018 (277 ms) | general | Cleaning up map database on server shutdown.
+L4 | Sat Jun  2 15:08:13 2018 (326 ms) | general | ...0 useDummy/variable objects present that were changed back into their unused parent.
+L4 | Sat Jun  2 15:08:13 2018 (327 ms) | general | ...0 contained useDummy/variable objects present and changed back to usused parent.
+L4 | Sat Jun  2 15:08:13 2018 (327 ms) | general | Now running normal map clean...
+L4 | Sat Jun  2 15:08:13 2018 (327 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 15:08:13 2018 (377 ms) | general | ...2 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:08:13 2018 (378 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:08:13 2018 (380 ms) | general | Done.
+L4 | Sat Jun  2 15:08:53 2018 (976 ms) | general | Server starting up
+L4 | Sat Jun  2 15:08:53 2018 (976 ms) | general | Server using version number 105
+L4 | Sat Jun  2 15:08:53 2018 (985 ms) | general | lifeLog starting up
+L4 | Sat Jun  2 15:08:53 2018 (985 ms) | general | Backup system inited.  Backups on = 1, target hour UTC = 8, current hour UTC = 20, last backup was 424436.148056 hours ago
+L4 | Sat Jun  2 15:08:54 2018 (217 ms) | general | foodLog starting up
+L4 | Sat Jun  2 15:08:54 2018 (217 ms) | general | failureLog starting up
+L4 | Sat Jun  2 15:08:54 2018 (228 ms) | general | No lookTimes present, not cleaning map.db
+L4 | Sat Jun  2 15:08:54 2018 (274 ms) | general | No lookTimes present, not cleaning mapTime.db
+L4 | Sat Jun  2 15:08:54 2018 (320 ms) | general | No lookTimes present, not cleaning biome.db
+L4 | Sat Jun  2 15:08:54 2018 (386 ms) | general | No lookTimes present, not cleaning floor.db
+L4 | Sat Jun  2 15:08:54 2018 (423 ms) | general | No lookTimes present, not cleaning floorTime.db
+L4 | Sat Jun  2 15:08:54 2018 (469 ms) | general | Biome 0:  Found 14 natural objects with total weight 15.000000
+L4 | Sat Jun  2 15:08:54 2018 (469 ms) | general | Biome 3:  Found 11 natural objects with total weight 6.520000
+L4 | Sat Jun  2 15:08:54 2018 (469 ms) | general | Biome 4:  Found 8 natural objects with total weight 3.660000
+L4 | Sat Jun  2 15:08:54 2018 (469 ms) | general | Biome 5:  Found 9 natural objects with total weight 4.551000
+L4 | Sat Jun  2 15:08:54 2018 (469 ms) | general | Biome 2:  Found 8 natural objects with total weight 4.875000
+L4 | Sat Jun  2 15:08:54 2018 (469 ms) | general | Biome 1:  Found 5 natural objects with total weight 7.000000
+L4 | Sat Jun  2 15:08:54 2018 (469 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 15:08:54 2018 (507 ms) | general | ...0 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:08:54 2018 (507 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:08:54 2018 (507 ms) | general | Listening for connection on port 8005
+L4 | Sat Jun  2 15:09:55 2018 (258 ms) | general | Got connection
+L4 | Sat Jun  2 15:09:55 2018 (258 ms) | general | Listening for another connection on port 8005
+L4 | Sat Jun  2 15:09:56 2018 (248 ms) | general | Got new player logged in
+L4 | Sat Jun  2 15:09:56 2018 (248 ms) | general | New player sdfgh connected as player 5
+L4 | Sat Jun  2 15:09:56 2018 (250 ms) | general | Need to send updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:09:56 2018 (255 ms) | general | Sending updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:09:56 2018 (304 ms) | general | 0/1 players were sent part of a 1-line PU: 
+L4 | Sat Jun  2 15:09:58 2018 (359 ms) | general | Got client message from 5: MOVE 0 0 1 0
+L4 | Sat Jun  2 15:09:58 2018 (626 ms) | general | Need to send updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:09:58 2018 (626 ms) | general | Sending updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:09:58 2018 (626 ms) | general | 1/1 players were sent part of a 1-line PU: 5, 
+L4 | Sat Jun  2 15:10:01 2018 (888 ms) | general | Got client message from 5: MOVE 1 0 0 -1
+L4 | Sat Jun  2 15:10:02 2018 (155 ms) | general | Need to send updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:02 2018 (155 ms) | general | Sending updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:02 2018 (155 ms) | general | 1/1 players were sent part of a 1-line PU: 5, 
+L4 | Sat Jun  2 15:10:02 2018 (374 ms) | general | Got client message from 5: MOVE 1 0 1 0 2 0 3 0
+L4 | Sat Jun  2 15:10:02 2018 (758 ms) | general | Got client message from 5: MOVE 1 0 1 -1 2 -1 3 -1
+L4 | Sat Jun  2 15:10:03 2018 (669 ms) | general | Need to send updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:03 2018 (669 ms) | general | Sending updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:03 2018 (669 ms) | general | 1/1 players were sent part of a 1-line PU: 5, 
+L4 | Sat Jun  2 15:10:05 2018 (242 ms) | general | Got client message from 5: MOVE 2 -1 1 0 2 -1
+L4 | Sat Jun  2 15:10:06 2018 (122 ms) | general | Got client message from 5: MOVE 2 -1 1 0 2 -1 3 -1
+L4 | Sat Jun  2 15:10:07 2018 (33 ms) | general | Need to send updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:07 2018 (33 ms) | general | Sending updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:07 2018 (33 ms) | general | 1/1 players were sent part of a 1-line PU: 5, 
+L4 | Sat Jun  2 15:10:08 2018 (610 ms) | general | Got client message from 5: MOVE 3 -1 1 -1
+L4 | Sat Jun  2 15:10:09 2018 (352 ms) | general | Got client message from 5: MOVE 3 -1 1 -1 2 -1
+L4 | Sat Jun  2 15:10:09 2018 (996 ms) | general | Need to send updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:09 2018 (996 ms) | general | Sending updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:09 2018 (996 ms) | general | 1/1 players were sent part of a 1-line PU: 5, 
+L4 | Sat Jun  2 15:10:10 2018 (448 ms) | general | Got client message from 5: MOVE 3 -1 -1 -1 0 -2
+L4 | Sat Jun  2 15:10:11 2018 (848 ms) | general | Need to send updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:11 2018 (848 ms) | general | Sending updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:11 2018 (848 ms) | general | 1/1 players were sent part of a 1-line PU: 5, 
+L4 | Sat Jun  2 15:10:14 2018 (637 ms) | general | Got client message from 5: MOVE 2 -2 1 -1 1 -2
+L4 | Sat Jun  2 15:10:15 2018 (171 ms) | general | Need to send updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:15 2018 (171 ms) | general | Sending updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:15 2018 (171 ms) | general | 1/1 players were sent part of a 1-line PU: 5, 
+L4 | Sat Jun  2 15:10:17 2018 (61 ms) | general | Got client message from 5: MOVE 3 -3 -1 1 -2 2
+L4 | Sat Jun  2 15:10:18 2018 (82 ms) | general | Need to send updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:18 2018 (82 ms) | general | Sending updates about these 1 players: 5, 
+L4 | Sat Jun  2 15:10:18 2018 (82 ms) | general | 1/1 players were sent part of a 1-line PU: 5, 
+L4 | Sat Jun  2 15:10:29 2018 (681 ms) | general | Quit received for unix
+L4 | Sat Jun  2 15:10:29 2018 (681 ms) | general | Cleaning up on quit...
+L4 | Sat Jun  2 15:10:29 2018 (682 ms) | general | Cleaning up map database on server shutdown.
+L4 | Sat Jun  2 15:10:29 2018 (719 ms) | general | ...0 useDummy/variable objects present that were changed back into their unused parent.
+L4 | Sat Jun  2 15:10:29 2018 (721 ms) | general | ...0 contained useDummy/variable objects present and changed back to usused parent.
+L4 | Sat Jun  2 15:10:29 2018 (721 ms) | general | Now running normal map clean...
+L4 | Sat Jun  2 15:10:29 2018 (721 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 15:10:29 2018 (780 ms) | general | ...5 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:10:29 2018 (784 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 15:10:29 2018 (786 ms) | general | Done.
+L4 | Sat Jun  2 16:12:48 2018 (52 ms) | general | Server starting up
+L4 | Sat Jun  2 16:12:48 2018 (52 ms) | general | Server using version number 105
+L4 | Sat Jun  2 16:12:48 2018 (61 ms) | general | lifeLog starting up
+L4 | Sat Jun  2 16:12:48 2018 (61 ms) | general | Backup system inited.  Backups on = 1, target hour UTC = 8, current hour UTC = 21, last backup was 424437.213333 hours ago
+L4 | Sat Jun  2 16:12:48 2018 (171 ms) | general | foodLog starting up
+L4 | Sat Jun  2 16:12:48 2018 (171 ms) | general | failureLog starting up
+L4 | Sat Jun  2 16:12:48 2018 (174 ms) | general | 
+Cleaning stale look times from map...
+L4 | Sat Jun  2 16:12:48 2018 (211 ms) | general | Cleaned 0 / 5 stale look times
+L4 | Sat Jun  2 16:12:48 2018 (252 ms) | general | Cleaned 0 / 5 stale map cells from map.db
+L4 | Sat Jun  2 16:12:48 2018 (301 ms) | general | Cleaned 3 / 8 stale map cells from mapTime.db
+L4 | Sat Jun  2 16:12:48 2018 (347 ms) | general | Cleaned 0 / 0 stale map cells from biome.db
+L4 | Sat Jun  2 16:12:48 2018 (452 ms) | general | Cleaned 0 / 0 stale map cells from floor.db
+L4 | Sat Jun  2 16:12:48 2018 (511 ms) | general | Cleaned 0 / 0 stale map cells from floorTime.db
+L4 | Sat Jun  2 16:12:48 2018 (518 ms) | general | Biome 0:  Found 14 natural objects with total weight 15.000000
+L4 | Sat Jun  2 16:12:48 2018 (518 ms) | general | Biome 3:  Found 11 natural objects with total weight 6.520000
+L4 | Sat Jun  2 16:12:48 2018 (518 ms) | general | Biome 4:  Found 8 natural objects with total weight 3.660000
+L4 | Sat Jun  2 16:12:48 2018 (518 ms) | general | Biome 5:  Found 9 natural objects with total weight 4.551000
+L4 | Sat Jun  2 16:12:48 2018 (518 ms) | general | Biome 2:  Found 8 natural objects with total weight 4.875000
+L4 | Sat Jun  2 16:12:48 2018 (518 ms) | general | Biome 1:  Found 5 natural objects with total weight 7.000000
+L4 | Sat Jun  2 16:12:48 2018 (518 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 16:12:48 2018 (567 ms) | general | ...5 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 16:12:48 2018 (571 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 16:12:48 2018 (573 ms) | general | Listening for connection on port 8005
+L4 | Sat Jun  2 16:13:18 2018 (726 ms) | general | Got connection
+L4 | Sat Jun  2 16:13:18 2018 (727 ms) | general | Listening for another connection on port 8005
+L4 | Sat Jun  2 16:13:19 2018 (708 ms) | general | Got new player logged in
+L4 | Sat Jun  2 16:13:19 2018 (710 ms) | general | New player sdfgh connected as player 6
+L4 | Sat Jun  2 16:13:19 2018 (712 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:19 2018 (714 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:19 2018 (798 ms) | general | 0/1 players were sent part of a 1-line PU: 
+L4 | Sat Jun  2 16:13:29 2018 (581 ms) | general | Got client message from 6: MOVE 0 0 -1 0 -2 0
+L4 | Sat Jun  2 16:13:30 2018 (116 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:30 2018 (116 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:30 2018 (116 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:13:36 2018 (238 ms) | general | Got client message from 6: USE -2 -1
+L4 | Sat Jun  2 16:13:36 2018 (238 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:36 2018 (239 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:36 2018 (239 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:13:42 2018 (831 ms) | general | Got client message from 6: USE -2 0
+L4 | Sat Jun  2 16:13:42 2018 (831 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:42 2018 (832 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:42 2018 (832 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:13:45 2018 (604 ms) | general | Got client message from 6: DROP -2 -1 -1
+L4 | Sat Jun  2 16:13:45 2018 (604 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:45 2018 (604 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:45 2018 (604 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:13:50 2018 (661 ms) | general | Got client message from 6: USE -2 -1
+L4 | Sat Jun  2 16:13:50 2018 (661 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:50 2018 (662 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:50 2018 (662 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:13:52 2018 (124 ms) | general | Got client message from 6: MOVE -2 0 0 -1
+L4 | Sat Jun  2 16:13:52 2018 (391 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:52 2018 (391 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:52 2018 (392 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:13:56 2018 (156 ms) | general | Got client message from 6: USE -1 -1
+L4 | Sat Jun  2 16:13:56 2018 (156 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:56 2018 (156 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:56 2018 (156 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:13:58 2018 (407 ms) | general | Got client message from 6: DROP -2 -1 -1
+L4 | Sat Jun  2 16:13:58 2018 (407 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:58 2018 (408 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:13:58 2018 (408 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:03 2018 (334 ms) | general | Got client message from 6: DROP -2 0 -1
+L4 | Sat Jun  2 16:14:03 2018 (334 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:03 2018 (335 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:03 2018 (335 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:04 2018 (47 ms) | general | Got client message from 6: MOVE -2 -1 0 1 0 2
+L4 | Sat Jun  2 16:14:04 2018 (581 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:04 2018 (581 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:04 2018 (581 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:10 2018 (993 ms) | general | Got client message from 6: USE -2 1
+L4 | Sat Jun  2 16:14:10 2018 (993 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:10 2018 (994 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:10 2018 (994 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:12 2018 (486 ms) | general | Got client message from 6: MOVE -2 1 1 -1 1 -2
+L4 | Sat Jun  2 16:14:13 2018 (130 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:13 2018 (130 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:13 2018 (130 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:26 2018 (509 ms) | general | Got client message from 6: USE -1 -1
+L4 | Sat Jun  2 16:14:26 2018 (509 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:26 2018 (510 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:26 2018 (510 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:29 2018 (658 ms) | general | Got client message from 6: DROP 0 -1 -1
+L4 | Sat Jun  2 16:14:29 2018 (659 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:29 2018 (659 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:29 2018 (659 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:38 2018 (64 ms) | general | Got client message from 6: MOVE -1 -1 0 -1
+L4 | Sat Jun  2 16:14:38 2018 (331 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:38 2018 (332 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:38 2018 (332 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:42 2018 (913 ms) | general | Got client message from 6: USE -1 -2
+L4 | Sat Jun  2 16:14:42 2018 (913 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:42 2018 (913 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:42 2018 (913 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:45 2018 (646 ms) | general | Got client message from 6: SELF -1 -2 -1
+L4 | Sat Jun  2 16:14:45 2018 (646 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:45 2018 (647 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:45 2018 (647 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:48 2018 (625 ms) | general | Got client message from 6: DROP -1 -2 -1
+L4 | Sat Jun  2 16:14:48 2018 (626 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:48 2018 (626 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:48 2018 (626 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:50 2018 (834 ms) | general | Got client message from 6: MOVE -1 -2 -1 1
+L4 | Sat Jun  2 16:14:51 2018 (212 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:51 2018 (212 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:51 2018 (212 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:56 2018 (406 ms) | general | Got client message from 6: SELF -2 -1 -1
+L4 | Sat Jun  2 16:14:56 2018 (406 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:56 2018 (407 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:56 2018 (407 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:14:57 2018 (320 ms) | general | Got client message from 6: MOVE -2 -1 0 1
+L4 | Sat Jun  2 16:14:57 2018 (587 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:57 2018 (587 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:14:57 2018 (587 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:01 2018 (897 ms) | general | Got client message from 6: USE -2 0
+L4 | Sat Jun  2 16:15:01 2018 (897 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:01 2018 (897 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:01 2018 (897 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:04 2018 (162 ms) | general | Got client message from 6: USE -2 -1
+L4 | Sat Jun  2 16:15:04 2018 (162 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:04 2018 (163 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:04 2018 (163 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:05 2018 (711 ms) | general | Got client message from 6: MOVE -2 0 0 -1
+L4 | Sat Jun  2 16:15:05 2018 (979 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:05 2018 (979 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:05 2018 (979 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:09 2018 (955 ms) | general | Got client message from 6: USE -1 -1
+L4 | Sat Jun  2 16:15:09 2018 (955 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:09 2018 (956 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:09 2018 (956 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:11 2018 (433 ms) | general | Got client message from 6: MOVE -2 -1 1 0
+L4 | Sat Jun  2 16:15:11 2018 (700 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:11 2018 (700 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:11 2018 (701 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:15 2018 (844 ms) | general | Got client message from 6: DROP 0 -1 -1
+L4 | Sat Jun  2 16:15:15 2018 (844 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:15 2018 (845 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:15 2018 (845 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:17 2018 (983 ms) | general | Got client message from 6: DROP 0 -1 -1
+L4 | Sat Jun  2 16:15:17 2018 (983 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:17 2018 (983 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:17 2018 (983 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:20 2018 (997 ms) | general | Got client message from 6: DROP 0 -1 -1
+L4 | Sat Jun  2 16:15:20 2018 (997 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:20 2018 (997 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:20 2018 (997 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:23 2018 (980 ms) | general | Got client message from 6: USE -1 -1
+L4 | Sat Jun  2 16:15:23 2018 (980 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:23 2018 (981 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:23 2018 (981 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:25 2018 (523 ms) | general | Got client message from 6: MOVE -1 -1 0 1
+L4 | Sat Jun  2 16:15:25 2018 (790 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:25 2018 (791 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:25 2018 (791 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:29 2018 (899 ms) | general | Got client message from 6: DROP -2 0 -1
+L4 | Sat Jun  2 16:15:29 2018 (899 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:29 2018 (899 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:29 2018 (899 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:38 2018 (109 ms) | general | Got client message from 6: MOVE -1 0 1 1
+L4 | Sat Jun  2 16:15:38 2018 (487 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:38 2018 (487 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:38 2018 (487 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:49 2018 (80 ms) | general | Got client message from 6: USE 0 1
+L4 | Sat Jun  2 16:15:49 2018 (80 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:49 2018 (81 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:49 2018 (81 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:15:49 2018 (778 ms) | general | Got client message from 6: MOVE 0 1 -1 -1 -1 -2
+L4 | Sat Jun  2 16:15:50 2018 (422 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:50 2018 (422 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:15:50 2018 (422 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:01 2018 (292 ms) | general | Got client message from 6: USE -1 -1
+L4 | Sat Jun  2 16:16:01 2018 (292 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:01 2018 (293 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:01 2018 (293 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:07 2018 (165 ms) | general | Got client message from 6: MOVE -1 -1 0 -1
+L4 | Sat Jun  2 16:16:07 2018 (432 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:07 2018 (432 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:07 2018 (432 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:11 2018 (816 ms) | general | Got client message from 6: USE -1 -2
+L4 | Sat Jun  2 16:16:11 2018 (816 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:11 2018 (817 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:11 2018 (817 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:14 2018 (436 ms) | general | Got client message from 6: SELF -1 -2 -1
+L4 | Sat Jun  2 16:16:14 2018 (436 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:14 2018 (436 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:14 2018 (436 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:16 2018 (434 ms) | general | Got client message from 6: SELF -1 -2 -1
+L4 | Sat Jun  2 16:16:16 2018 (434 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:16 2018 (435 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:16 2018 (435 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:21 2018 (111 ms) | general | Got client message from 6: DROP -1 -2 -1
+L4 | Sat Jun  2 16:16:21 2018 (111 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:21 2018 (111 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:21 2018 (111 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:22 2018 (29 ms) | general | Got client message from 6: MOVE -1 -2 0 1
+L4 | Sat Jun  2 16:16:22 2018 (296 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:22 2018 (296 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:22 2018 (296 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:25 2018 (514 ms) | general | Got client message from 6: MOVE -1 -1 0 1
+L4 | Sat Jun  2 16:16:25 2018 (781 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:25 2018 (782 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:25 2018 (782 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:31 2018 (95 ms) | general | Got client message from 6: MOVE -1 0 1 1
+L4 | Sat Jun  2 16:16:31 2018 (473 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:31 2018 (474 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:31 2018 (474 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:36 2018 (564 ms) | general | Got client message from 6: USE -1 1
+L4 | Sat Jun  2 16:16:36 2018 (564 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:36 2018 (564 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:36 2018 (564 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:37 2018 (717 ms) | general | Got client message from 6: MOVE 0 1 -1 -1
+L4 | Sat Jun  2 16:16:38 2018 (95 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:38 2018 (95 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:38 2018 (95 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:39 2018 (797 ms) | general | Got client message from 6: MOVE -1 0 0 -1
+L4 | Sat Jun  2 16:16:40 2018 (65 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:40 2018 (65 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:40 2018 (65 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:45 2018 (514 ms) | general | Got client message from 6: DROP -1 -1 -1
+L4 | Sat Jun  2 16:16:45 2018 (514 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:45 2018 (515 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:45 2018 (515 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:48 2018 (256 ms) | general | Got client message from 6: USE -1 -1
+L4 | Sat Jun  2 16:16:48 2018 (256 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:48 2018 (256 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:48 2018 (256 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:49 2018 (629 ms) | general | Got client message from 6: MOVE -1 -1 -1 -1
+L4 | Sat Jun  2 16:16:50 2018 (7 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:50 2018 (7 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:50 2018 (7 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:16:59 2018 (663 ms) | general | Got client message from 6: USE -2 -2
+L4 | Sat Jun  2 16:16:59 2018 (663 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:59 2018 (664 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:16:59 2018 (664 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:17:01 2018 (224 ms) | general | Got client message from 6: MOVE -2 -2 1 1
+L4 | Sat Jun  2 16:17:01 2018 (602 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:01 2018 (602 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:01 2018 (602 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:17:09 2018 (44 ms) | general | Got client message from 6: USE -1 -1
+L4 | Sat Jun  2 16:17:09 2018 (44 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:09 2018 (45 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:09 2018 (45 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:17:10 2018 (953 ms) | general | Got client message from 6: USE -1 -1
+L4 | Sat Jun  2 16:17:10 2018 (953 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:10 2018 (953 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:10 2018 (953 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:17:11 2018 (255 ms) | general | Got client message from 6: MOVE -1 -1 0 -1
+L4 | Sat Jun  2 16:17:11 2018 (523 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:11 2018 (523 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:11 2018 (523 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:17:15 2018 (608 ms) | general | Got client message from 6: DROP -2 -2 -1
+L4 | Sat Jun  2 16:17:15 2018 (608 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:15 2018 (608 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:15 2018 (608 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:17:18 2018 (559 ms) | general | Got client message from 6: USE -1 -2
+L4 | Sat Jun  2 16:17:18 2018 (559 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:18 2018 (560 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:18 2018 (560 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:17:20 2018 (828 ms) | general | Got client message from 6: SELF -1 -2 -1
+L4 | Sat Jun  2 16:17:20 2018 (828 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:20 2018 (828 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:20 2018 (828 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:17:22 2018 (793 ms) | general | Got client message from 6: SELF -1 -2 -1
+L4 | Sat Jun  2 16:17:22 2018 (793 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:22 2018 (793 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:22 2018 (793 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:17:26 2018 (914 ms) | general | Got client message from 6: DROP -1 -2 -1
+L4 | Sat Jun  2 16:17:26 2018 (914 ms) | general | Need to send updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:26 2018 (915 ms) | general | Sending updates about these 1 players: 6, 
+L4 | Sat Jun  2 16:17:26 2018 (915 ms) | general | 1/1 players were sent part of a 1-line PU: 6, 
+L4 | Sat Jun  2 16:17:33 2018 (835 ms) | general | Closing connection to player 6 on error (cause: Socket write failed)
+L4 | Sat Jun  2 16:17:33 2018 (835 ms) | general | 0 remaining player(s) alive on server 
+L4 | Sat Jun  2 16:17:33 2018 (835 ms) | general | Failed to read sequence number from stats server response.
+L4 | Sat Jun  2 16:17:33 2018 (835 ms) | general | Failed to read sequence number from lineage server response.
+L4 | Sat Jun  2 16:31:26 2018 (276 ms) | general | Quit received for unix
+L4 | Sat Jun  2 16:31:26 2018 (277 ms) | general | Cleaning up on quit...
+L4 | Sat Jun  2 16:31:26 2018 (277 ms) | general | Cleaning up map database on server shutdown.
+L4 | Sat Jun  2 16:31:26 2018 (336 ms) | general | ...1 useDummy/variable objects present that were changed back into their unused parent.
+L4 | Sat Jun  2 16:31:26 2018 (336 ms) | general | ...0 contained useDummy/variable objects present and changed back to usused parent.
+L4 | Sat Jun  2 16:31:26 2018 (336 ms) | general | Now running normal map clean...
+L4 | Sat Jun  2 16:31:26 2018 (336 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 16:31:26 2018 (375 ms) | general | ...14 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 16:31:26 2018 (375 ms) | general | ...1 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 16:31:26 2018 (377 ms) | general | Done.
+L4 | Sat Jun  2 17:21:03 2018 (907 ms) | general | Server starting up
+L4 | Sat Jun  2 17:21:03 2018 (907 ms) | general | Server using version number 105
+L4 | Sat Jun  2 17:21:03 2018 (920 ms) | general | lifeLog starting up
+L4 | Sat Jun  2 17:21:03 2018 (921 ms) | general | Backup system inited.  Backups on = 1, target hour UTC = 8, current hour UTC = 22, last backup was 424438.350833 hours ago
+L4 | Sat Jun  2 17:21:04 2018 (173 ms) | general | foodLog starting up
+L4 | Sat Jun  2 17:21:04 2018 (173 ms) | general | failureLog starting up
+L4 | Sat Jun  2 17:21:04 2018 (177 ms) | general | 
+Cleaning stale look times from map...
+L4 | Sat Jun  2 17:21:04 2018 (231 ms) | general | Cleaned 0 / 31 stale look times
+L4 | Sat Jun  2 17:21:04 2018 (279 ms) | general | Cleaned 2 / 56 stale map cells from map.db
+L4 | Sat Jun  2 17:21:04 2018 (331 ms) | general | Cleaned 3 / 31 stale map cells from mapTime.db
+L4 | Sat Jun  2 17:21:04 2018 (393 ms) | general | Cleaned 1 / 25 stale map cells from biome.db
+L4 | Sat Jun  2 17:21:04 2018 (457 ms) | general | Cleaned 1 / 25 stale map cells from floor.db
+L4 | Sat Jun  2 17:21:04 2018 (517 ms) | general | Cleaned 0 / 0 stale map cells from floorTime.db
+L4 | Sat Jun  2 17:21:04 2018 (524 ms) | general | Biome 0:  Found 14 natural objects with total weight 15.000000
+L4 | Sat Jun  2 17:21:04 2018 (524 ms) | general | Biome 3:  Found 11 natural objects with total weight 6.520000
+L4 | Sat Jun  2 17:21:04 2018 (524 ms) | general | Biome 4:  Found 8 natural objects with total weight 3.660000
+L4 | Sat Jun  2 17:21:04 2018 (524 ms) | general | Biome 5:  Found 9 natural objects with total weight 4.551000
+L4 | Sat Jun  2 17:21:04 2018 (524 ms) | general | Biome 2:  Found 8 natural objects with total weight 4.875000
+L4 | Sat Jun  2 17:21:04 2018 (525 ms) | general | Biome 1:  Found 5 natural objects with total weight 7.000000
+L4 | Sat Jun  2 17:21:04 2018 (525 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 17:21:04 2018 (577 ms) | general | ...14 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:21:04 2018 (578 ms) | general | ...1 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:21:04 2018 (578 ms) | general | Listening for connection on port 8005
+L4 | Sat Jun  2 17:21:14 2018 (730 ms) | general | Got connection
+L4 | Sat Jun  2 17:21:14 2018 (730 ms) | general | Listening for another connection on port 8005
+L4 | Sat Jun  2 17:21:15 2018 (723 ms) | general | Got new player logged in
+L4 | Sat Jun  2 17:21:15 2018 (725 ms) | general | New player sdfgh connected as player 7
+L4 | Sat Jun  2 17:21:15 2018 (727 ms) | general | Need to send updates about these 1 players: 7, 
+L4 | Sat Jun  2 17:21:15 2018 (735 ms) | general | Sending updates about these 1 players: 7, 
+L4 | Sat Jun  2 17:21:15 2018 (802 ms) | general | 0/1 players were sent part of a 1-line PU: 
+L4 | Sat Jun  2 17:21:19 2018 (597 ms) | general | Got client message from 7: MOVE 0 0 1 0
+L4 | Sat Jun  2 17:21:19 2018 (864 ms) | general | Need to send updates about these 1 players: 7, 
+L4 | Sat Jun  2 17:21:19 2018 (864 ms) | general | Sending updates about these 1 players: 7, 
+L4 | Sat Jun  2 17:21:19 2018 (864 ms) | general | 1/1 players were sent part of a 1-line PU: 7, 
+L4 | Sat Jun  2 17:21:20 2018 (151 ms) | general | Got client message from 7: MOVE 0 0 1 -1
+L4 | Sat Jun  2 17:21:20 2018 (795 ms) | general | Need to send updates about these 1 players: 7, 
+L4 | Sat Jun  2 17:21:20 2018 (795 ms) | general | Sending updates about these 1 players: 7, 
+L4 | Sat Jun  2 17:21:20 2018 (795 ms) | general | 1/1 players were sent part of a 1-line PU: 7, 
+L4 | Sat Jun  2 17:21:37 2018 (806 ms) | general | Closing connection to player 7 on error (cause: Socket write failed)
+L4 | Sat Jun  2 17:21:37 2018 (806 ms) | general | 0 remaining player(s) alive on server 
+L4 | Sat Jun  2 17:21:37 2018 (807 ms) | general | Failed to read sequence number from stats server response.
+L4 | Sat Jun  2 17:21:37 2018 (807 ms) | general | Failed to read sequence number from lineage server response.
+L4 | Sat Jun  2 17:21:39 2018 (531 ms) | general | Quit received for unix
+L4 | Sat Jun  2 17:21:39 2018 (531 ms) | general | Cleaning up on quit...
+L4 | Sat Jun  2 17:21:39 2018 (531 ms) | general | Cleaning up map database on server shutdown.
+L4 | Sat Jun  2 17:21:39 2018 (597 ms) | general | ...0 useDummy/variable objects present that were changed back into their unused parent.
+L4 | Sat Jun  2 17:21:39 2018 (597 ms) | general | ...0 contained useDummy/variable objects present and changed back to usused parent.
+L4 | Sat Jun  2 17:21:39 2018 (597 ms) | general | Now running normal map clean...
+L4 | Sat Jun  2 17:21:39 2018 (597 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 17:21:39 2018 (633 ms) | general | ...15 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:21:39 2018 (642 ms) | general | ...1 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:21:39 2018 (644 ms) | general | Done.
+L4 | Sat Jun  2 17:23:06 2018 (679 ms) | general | Server starting up
+L4 | Sat Jun  2 17:23:06 2018 (679 ms) | general | Server using version number 105
+L4 | Sat Jun  2 17:23:06 2018 (688 ms) | general | lifeLog starting up
+L4 | Sat Jun  2 17:23:06 2018 (693 ms) | general | Backup system inited.  Backups on = 1, target hour UTC = 8, current hour UTC = 22, last backup was 424438.385000 hours ago
+L4 | Sat Jun  2 17:23:06 2018 (824 ms) | general | foodLog starting up
+L4 | Sat Jun  2 17:23:06 2018 (824 ms) | general | failureLog starting up
+L4 | Sat Jun  2 17:23:06 2018 (832 ms) | general | 
+Cleaning stale look times from map...
+L4 | Sat Jun  2 17:23:06 2018 (885 ms) | general | Cleaned 0 / 35 stale look times
+L4 | Sat Jun  2 17:23:06 2018 (929 ms) | general | Cleaned 2 / 56 stale map cells from map.db
+L4 | Sat Jun  2 17:23:06 2018 (981 ms) | general | Cleaned 3 / 31 stale map cells from mapTime.db
+L4 | Sat Jun  2 17:23:07 2018 (46 ms) | general | Cleaned 1 / 25 stale map cells from biome.db
+L4 | Sat Jun  2 17:23:07 2018 (115 ms) | general | Cleaned 1 / 25 stale map cells from floor.db
+L4 | Sat Jun  2 17:23:07 2018 (173 ms) | general | Cleaned 0 / 0 stale map cells from floorTime.db
+L4 | Sat Jun  2 17:23:07 2018 (178 ms) | general | Biome 0:  Found 14 natural objects with total weight 15.000000
+L4 | Sat Jun  2 17:23:07 2018 (179 ms) | general | Biome 3:  Found 11 natural objects with total weight 6.520000
+L4 | Sat Jun  2 17:23:07 2018 (179 ms) | general | Biome 4:  Found 8 natural objects with total weight 3.660000
+L4 | Sat Jun  2 17:23:07 2018 (179 ms) | general | Biome 5:  Found 9 natural objects with total weight 4.551000
+L4 | Sat Jun  2 17:23:07 2018 (179 ms) | general | Biome 2:  Found 8 natural objects with total weight 4.875000
+L4 | Sat Jun  2 17:23:07 2018 (179 ms) | general | Biome 1:  Found 5 natural objects with total weight 7.000000
+L4 | Sat Jun  2 17:23:07 2018 (179 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 17:23:07 2018 (237 ms) | general | ...15 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:23:07 2018 (237 ms) | general | ...1 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:23:07 2018 (240 ms) | general | Listening for connection on port 8005
+L4 | Sat Jun  2 17:23:16 2018 (398 ms) | general | Got connection
+L4 | Sat Jun  2 17:23:16 2018 (398 ms) | general | Listening for another connection on port 8005
+L4 | Sat Jun  2 17:23:17 2018 (390 ms) | general | Got new player logged in
+L4 | Sat Jun  2 17:23:17 2018 (391 ms) | general | New player sdfgh connected as player 8
+L4 | Sat Jun  2 17:23:17 2018 (393 ms) | general | Need to send updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:17 2018 (399 ms) | general | Sending updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:17 2018 (467 ms) | general | 0/1 players were sent part of a 1-line PU: 
+L4 | Sat Jun  2 17:23:18 2018 (995 ms) | general | Got client message from 8: MOVE 0 0 0 -1
+L4 | Sat Jun  2 17:23:19 2018 (262 ms) | general | Need to send updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:19 2018 (262 ms) | general | Sending updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:19 2018 (262 ms) | general | 1/1 players were sent part of a 1-line PU: 8, 
+L4 | Sat Jun  2 17:23:19 2018 (572 ms) | general | Got client message from 8: MOVE 0 0 1 -1
+L4 | Sat Jun  2 17:23:20 2018 (216 ms) | general | Need to send updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:20 2018 (216 ms) | general | Sending updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:20 2018 (216 ms) | general | 1/1 players were sent part of a 1-line PU: 8, 
+L4 | Sat Jun  2 17:23:26 2018 (340 ms) | general | Got client message from 8: MOVE 1 -1 0 -1
+L4 | Sat Jun  2 17:23:26 2018 (607 ms) | general | Need to send updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:26 2018 (607 ms) | general | Sending updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:26 2018 (607 ms) | general | 1/1 players were sent part of a 1-line PU: 8, 
+L4 | Sat Jun  2 17:23:28 2018 (49 ms) | general | Got client message from 8: MOVE 1 -2 -1 1 -1 2
+L4 | Sat Jun  2 17:23:28 2018 (350 ms) | general | Got client message from 8: MOVE 1 -2 -1 1
+L4 | Sat Jun  2 17:23:28 2018 (728 ms) | general | Need to send updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:28 2018 (728 ms) | general | Sending updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:28 2018 (728 ms) | general | 1/1 players were sent part of a 1-line PU: 8, 
+L4 | Sat Jun  2 17:23:30 2018 (692 ms) | general | Got client message from 8: MOVE 0 -1 1 0
+L4 | Sat Jun  2 17:23:30 2018 (959 ms) | general | Need to send updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:30 2018 (959 ms) | general | Sending updates about these 1 players: 8, 
+L4 | Sat Jun  2 17:23:30 2018 (959 ms) | general | 1/1 players were sent part of a 1-line PU: 8, 
+L4 | Sat Jun  2 17:23:53 2018 (733 ms) | general | Closing connection to player 8 on error (cause: Socket write failed)
+L4 | Sat Jun  2 17:23:53 2018 (733 ms) | general | 0 remaining player(s) alive on server 
+L4 | Sat Jun  2 17:23:53 2018 (733 ms) | general | Failed to read sequence number from stats server response.
+L4 | Sat Jun  2 17:23:53 2018 (733 ms) | general | Failed to read sequence number from lineage server response.
+L4 | Sat Jun  2 17:24:09 2018 (615 ms) | general | Quit received for unix
+L4 | Sat Jun  2 17:24:09 2018 (615 ms) | general | Cleaning up on quit...
+L4 | Sat Jun  2 17:24:09 2018 (615 ms) | general | Cleaning up map database on server shutdown.
+L4 | Sat Jun  2 17:24:09 2018 (666 ms) | general | ...0 useDummy/variable objects present that were changed back into their unused parent.
+L4 | Sat Jun  2 17:24:09 2018 (666 ms) | general | ...0 contained useDummy/variable objects present and changed back to usused parent.
+L4 | Sat Jun  2 17:24:09 2018 (666 ms) | general | Now running normal map clean...
+L4 | Sat Jun  2 17:24:09 2018 (666 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 17:24:09 2018 (707 ms) | general | ...9 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:24:09 2018 (707 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:24:09 2018 (709 ms) | general | Done.
+L4 | Sat Jun  2 17:27:58 2018 (283 ms) | general | Server starting up
+L4 | Sat Jun  2 17:27:58 2018 (284 ms) | general | Server using version number 105
+L4 | Sat Jun  2 17:27:58 2018 (291 ms) | general | lifeLog starting up
+L4 | Sat Jun  2 17:27:58 2018 (291 ms) | general | Backup system inited.  Backups on = 1, target hour UTC = 8, current hour UTC = 22, last backup was 424438.466111 hours ago
+L4 | Sat Jun  2 17:27:58 2018 (530 ms) | general | foodLog starting up
+L4 | Sat Jun  2 17:27:58 2018 (532 ms) | general | failureLog starting up
+L4 | Sat Jun  2 17:27:58 2018 (541 ms) | general | No lookTimes present, not cleaning map.db
+L4 | Sat Jun  2 17:27:58 2018 (593 ms) | general | No lookTimes present, not cleaning mapTime.db
+L4 | Sat Jun  2 17:27:58 2018 (649 ms) | general | No lookTimes present, not cleaning biome.db
+L4 | Sat Jun  2 17:27:58 2018 (728 ms) | general | No lookTimes present, not cleaning floor.db
+L4 | Sat Jun  2 17:27:58 2018 (782 ms) | general | No lookTimes present, not cleaning floorTime.db
+L4 | Sat Jun  2 17:27:58 2018 (833 ms) | general | Biome 0:  Found 14 natural objects with total weight 15.000000
+L4 | Sat Jun  2 17:27:58 2018 (834 ms) | general | Biome 3:  Found 11 natural objects with total weight 6.520000
+L4 | Sat Jun  2 17:27:58 2018 (834 ms) | general | Biome 4:  Found 8 natural objects with total weight 3.660000
+L4 | Sat Jun  2 17:27:58 2018 (834 ms) | general | Biome 5:  Found 9 natural objects with total weight 4.551000
+L4 | Sat Jun  2 17:27:58 2018 (834 ms) | general | Biome 2:  Found 8 natural objects with total weight 4.875000
+L4 | Sat Jun  2 17:27:58 2018 (834 ms) | general | Biome 1:  Found 5 natural objects with total weight 7.000000
+L4 | Sat Jun  2 17:27:58 2018 (834 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 17:27:58 2018 (892 ms) | general | ...0 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:27:58 2018 (892 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:27:58 2018 (896 ms) | general | Listening for connection on port 8005
+L4 | Sat Jun  2 17:28:12 2018 (408 ms) | general | Got connection
+L4 | Sat Jun  2 17:28:12 2018 (409 ms) | general | Listening for another connection on port 8005
+L4 | Sat Jun  2 17:28:13 2018 (401 ms) | general | Got new player logged in
+L4 | Sat Jun  2 17:28:13 2018 (402 ms) | general | New player sdfgh connected as player 9
+L4 | Sat Jun  2 17:28:13 2018 (404 ms) | general | Need to send updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:13 2018 (408 ms) | general | Sending updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:13 2018 (494 ms) | general | 0/1 players were sent part of a 1-line PU: 
+L4 | Sat Jun  2 17:28:16 2018 (536 ms) | general | Got client message from 9: MOVE 0 0 0 -1
+L4 | Sat Jun  2 17:28:16 2018 (803 ms) | general | Need to send updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:16 2018 (803 ms) | general | Sending updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:16 2018 (803 ms) | general | 1/1 players were sent part of a 1-line PU: 9, 
+L4 | Sat Jun  2 17:28:20 2018 (561 ms) | general | Got client message from 9: MOVE 0 -1 1 -1
+L4 | Sat Jun  2 17:28:20 2018 (939 ms) | general | Need to send updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:20 2018 (939 ms) | general | Sending updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:20 2018 (939 ms) | general | 1/1 players were sent part of a 1-line PU: 9, 
+L4 | Sat Jun  2 17:28:27 2018 (948 ms) | general | Got client message from 9: USE 1 -2
+L4 | Sat Jun  2 17:28:27 2018 (948 ms) | general | Need to send updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:27 2018 (948 ms) | general | Sending updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:27 2018 (949 ms) | general | 1/1 players were sent part of a 1-line PU: 9, 
+L4 | Sat Jun  2 17:28:31 2018 (204 ms) | general | Got client message from 9: SELF 1 -2 -1
+L4 | Sat Jun  2 17:28:31 2018 (204 ms) | general | Need to send updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:31 2018 (205 ms) | general | Sending updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:31 2018 (205 ms) | general | 1/1 players were sent part of a 1-line PU: 9, 
+L4 | Sat Jun  2 17:28:33 2018 (701 ms) | general | Got client message from 9: DROP 1 -2 -1
+L4 | Sat Jun  2 17:28:33 2018 (701 ms) | general | Need to send updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:33 2018 (701 ms) | general | Sending updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:33 2018 (701 ms) | general | 1/1 players were sent part of a 1-line PU: 9, 
+L4 | Sat Jun  2 17:28:34 2018 (395 ms) | general | Got client message from 9: MOVE 1 -2 -1 1
+L4 | Sat Jun  2 17:28:34 2018 (773 ms) | general | Need to send updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:34 2018 (773 ms) | general | Sending updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:34 2018 (773 ms) | general | 1/1 players were sent part of a 1-line PU: 9, 
+L4 | Sat Jun  2 17:28:40 2018 (453 ms) | general | Got client message from 9: SELF 0 -1 -1
+L4 | Sat Jun  2 17:28:40 2018 (453 ms) | general | Need to send updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:40 2018 (453 ms) | general | Sending updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:40 2018 (453 ms) | general | 1/1 players were sent part of a 1-line PU: 9, 
+L4 | Sat Jun  2 17:28:43 2018 (482 ms) | general | Got client message from 9: MOVE 0 -1 -1 1
+L4 | Sat Jun  2 17:28:43 2018 (860 ms) | general | Need to send updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:43 2018 (860 ms) | general | Sending updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:43 2018 (860 ms) | general | 1/1 players were sent part of a 1-line PU: 9, 
+L4 | Sat Jun  2 17:28:47 2018 (3 ms) | general | Got client message from 9: MOVE -1 0 0 -1
+L4 | Sat Jun  2 17:28:48 2018 (270 ms) | general | Need to send updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:48 2018 (270 ms) | general | Sending updates about these 1 players: 9, 
+L4 | Sat Jun  2 17:28:48 2018 (270 ms) | general | 1/1 players were sent part of a 1-line PU: 9, 
+L4 | Sat Jun  2 17:28:58 2018 (469 ms) | general | Quit received for unix
+L4 | Sat Jun  2 17:28:58 2018 (469 ms) | general | Cleaning up on quit...
+L4 | Sat Jun  2 17:28:58 2018 (471 ms) | general | Cleaning up map database on server shutdown.
+L4 | Sat Jun  2 17:28:58 2018 (535 ms) | general | ...0 useDummy/variable objects present that were changed back into their unused parent.
+L4 | Sat Jun  2 17:28:58 2018 (536 ms) | general | ...0 contained useDummy/variable objects present and changed back to usused parent.
+L4 | Sat Jun  2 17:28:58 2018 (536 ms) | general | Now running normal map clean...
+L4 | Sat Jun  2 17:28:58 2018 (536 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sat Jun  2 17:28:58 2018 (577 ms) | general | ...6 map cells were set, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:28:58 2018 (582 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sat Jun  2 17:28:58 2018 (584 ms) | general | Done.
+L4 | Sun Jun  3 16:24:26 2018 (875 ms) | general | Server starting up
+L4 | Sun Jun  3 16:24:26 2018 (875 ms) | general | Server using version number 105
+L4 | Sun Jun  3 16:24:26 2018 (899 ms) | general | lifeLog starting up
+L4 | Sun Jun  3 16:24:26 2018 (920 ms) | general | Backup system inited.  Backups on = 1, target hour UTC = 8, current hour UTC = 21, last backup was 424461.407222 hours ago
+L4 | Sun Jun  3 16:24:27 2018 (172 ms) | general | foodLog starting up
+L4 | Sun Jun  3 16:24:27 2018 (173 ms) | general | failureLog starting up
+L4 | Sun Jun  3 16:24:27 2018 (181 ms) | general | 
+Cleaning stale look times from map...
+L4 | Sun Jun  3 16:24:27 2018 (242 ms) | general | Cleaned 0 / 25 stale look times
+L4 | Sun Jun  3 16:24:27 2018 (301 ms) | general | Cleaned 2 / 42 stale map cells from map.db
+L4 | Sun Jun  3 16:24:27 2018 (361 ms) | general | Cleaned 4 / 25 stale map cells from mapTime.db
+L4 | Sun Jun  3 16:24:27 2018 (420 ms) | general | Cleaned 1 / 20 stale map cells from biome.db
+L4 | Sun Jun  3 16:24:27 2018 (494 ms) | general | Cleaned 1 / 20 stale map cells from floor.db
+L4 | Sun Jun  3 16:24:27 2018 (568 ms) | general | Cleaned 0 / 0 stale map cells from floorTime.db
+L4 | Sun Jun  3 16:24:27 2018 (573 ms) | general | Biome 0:  Found 14 natural objects with total weight 15.000000
+L4 | Sun Jun  3 16:24:27 2018 (576 ms) | general | Biome 3:  Found 11 natural objects with total weight 6.520000
+L4 | Sun Jun  3 16:24:27 2018 (576 ms) | general | Biome 4:  Found 8 natural objects with total weight 3.660000
+L4 | Sun Jun  3 16:24:27 2018 (576 ms) | general | Biome 5:  Found 9 natural objects with total weight 4.551000
+L4 | Sun Jun  3 16:24:27 2018 (576 ms) | general | Biome 2:  Found 8 natural objects with total weight 4.875000
+L4 | Sun Jun  3 16:24:27 2018 (576 ms) | general | Biome 1:  Found 5 natural objects with total weight 7.000000
+L4 | Sun Jun  3 16:24:27 2018 (576 ms) | general | 
+Cleaning map of objects that have been removed...
+L4 | Sun Jun  3 16:24:27 2018 (637 ms) | general | ...6 map cells were set, and 0 needed to be cleared.
+L4 | Sun Jun  3 16:24:27 2018 (643 ms) | general | ...0 contained objects present, and 0 needed to be cleared.
+L4 | Sun Jun  3 16:24:27 2018 (643 ms) | general | Listening for connection on port 8005
+L4 | Tue Jun  5 14:08:06 2018 (999 ms) | general | Quit received for unix
