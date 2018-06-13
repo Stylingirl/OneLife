@@ -585,6 +585,12 @@ float initObjectBankStep() {
                         &( r->deadlyDistance ) );
                             
                 next++;
+
+                r->healingDistance = 0;
+                sscanf( lines[next], "healingDistance=%d", 
+                        &( r->healingDistance ) );
+                            
+                next++;
                 
                 
                 r->useDistance = 1;
@@ -1666,6 +1672,7 @@ int reAddObject( ObjectRecord *inObject,
                         inObject->clothing,
                         inObject->clothingOffset,
                         inObject->deadlyDistance,
+                        inObject->healingDistance,
                         inObject->useDistance,
                         inObject->creationSound,
                         inObject->usingSound,
@@ -1931,6 +1938,7 @@ int addObject( const char *inDescription,
                char inClothing,
                doublePair inClothingOffset,
                int inDeadlyDistance,
+               int inHealingDistance,
                int inUseDistance,
                SoundUsage inCreationSound,
                SoundUsage inUsingSound,
@@ -2092,6 +2100,9 @@ int addObject( const char *inDescription,
 
         lines.push_back( autoSprintf( "deadlyDistance=%d", 
                                       inDeadlyDistance ) );
+
+        lines.push_back( autoSprintf( "healingDistance=%d", 
+                                        inHealingDistance ) );
 
         lines.push_back( autoSprintf( "useDistance=%d", 
                                       inUseDistance ) );
@@ -2345,6 +2356,7 @@ int addObject( const char *inDescription,
     r->clothing = inClothing;
     r->clothingOffset = inClothingOffset;
     r->deadlyDistance = inDeadlyDistance;
+    r->healingDistance = inHealingDistance;
     r->useDistance = inUseDistance;
     r->creationSound = copyUsage( inCreationSound );
     r->usingSound = copyUsage( inUsingSound );
