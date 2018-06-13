@@ -148,6 +148,10 @@ typedef struct ObjectRecord {
         // 0 for non-deadly objects
         int deadlyDistance;
 
+         // how many cells away this object can heal
+        // 0 for non-healing objects
+        int healingDistance;
+
         // for non-deadly uses of this object, how far away can it reach?
         // (example:  lasso an animal, but has no effect on a person)
         int useDistance;
@@ -416,6 +420,7 @@ int addObject( const char *inDescription,
                char inClothing,
                doublePair inClothingOffset,
                int inDeadlyDistance,
+               int inHealingDistance,
                int inUseDistance,
                SoundUsage inCreationSound,
                SoundUsage inUsingSound,
