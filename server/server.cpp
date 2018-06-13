@@ -7991,11 +7991,11 @@ int main() {
             
             double curTime = Time::getCurrentTime();
             
-            if( nextPlayer->dying && ! nextPlayer->error &&
+            /*if( nextPlayer->dying && ! nextPlayer->error &&
                 curTime >= nextPlayer->dyingETA ) {
                 // finally died
                 nextPlayer->error = true;
-                }
+                } */
             
 
                 
