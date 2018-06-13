@@ -14574,7 +14574,7 @@ void LivingLifePage::pointerDown( float inX, float inY ) {
 
     if( destID == 0 &&
         modClick && ourLiveObject->holdingID > 0 &&
-        getObject( ourLiveObject->holdingID )->deadlyDistance > 0 ) {
+        getObject( ourLiveObject->holdingID )->healingDistance > 0 ) {
         
         // special case
 
@@ -14935,6 +14935,7 @@ void LivingLifePage::pointerDown( float inX, float inY ) {
                     }
                 else if( healLater ) {
                     action = "HEAL";
+                }
                 else {
                     // check for other special case
                     // a use-on-ground transition or use-on-floor transition
