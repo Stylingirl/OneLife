@@ -14604,7 +14604,7 @@ void LivingLifePage::pointerDown( float inX, float inY ) {
                     
                     if( getObject( ourLiveObject->holdingID )->healingDistance 
                         >= d ) {
-                        // close enough to use deadly object right now
+                        // close enough to use healing object right now
 
                         
                         if( nextActionMessageToSend != NULL ) {
