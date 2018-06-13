@@ -14567,9 +14567,83 @@ void LivingLifePage::pointerDown( float inX, float inY ) {
             }
     
         }
+
+    
+     char healLater = false;
+    
+
+    if( destID == 0 &&
+        modClick && ourLiveObject->holdingID > 0 &&
+        getObject( ourLiveObject->holdingID )->deadlyDistance > 0 ) {
+        
+        // special case
+
+        // check for possible heal attempt at a distance
+
+        // if it fails (target too far away or no person near),
+        // then we resort to standard drop code below
+
+
+        double d = sqrt( ( clickDestX - ourLiveObject->xd ) * 
+                         ( clickDestX - ourLiveObject->xd )
+                         +
+                         ( clickDestY - ourLiveObject->yd ) * 
+                         ( clickDestY - ourLiveObject->yd ) );
+
+        doublePair targetPos = { (double)clickDestX, (double)clickDestY };
+        
+
+
+        for( int i=0; i<gameObjects.size(); i++ ) {
+        
+            LiveObject *o = gameObjects.getElement( i );
+            
+            if( o->id != ourID ) {
+                if( distance( targetPos, o->currentPos ) < 1 ) {
+                    // clicked on someone
+                    
+                    if( getObject( ourLiveObject->holdingID )->healingDistance 
+                        >= d ) {
+                        // close enough to use deadly object right now
+
+                        
+                        if( nextActionMessageToSend != NULL ) {
+                            delete [] nextActionMessageToSend;
+                            nextActionMessageToSend = NULL;
+                            }
+            
+                        nextActionMessageToSend = 
+                            autoSprintf( "HEAL %d %d#",
+                                         sendX( clickDestX ), 
+                                         sendY( clickDestY ) );
+                        
+                        
+                        playerActionTargetX = clickDestX;
+                        playerActionTargetY = clickDestY;
+                        
+                        playerActionTargetNotAdjacent = true;
+                        
+                        printf( "HEAL with target player %d\n", o->id );
+
+                        return;
+                        }
+                    else {
+                        // too far away, but try to heal later,
+                        // once we walk there, using standard path-to-adjacent
+                        // code below
+                        healLater = true;
+                        
+                        break;
+                        }
+                    }
+                }
+            }
+    
+        }
     
 
     if( ! killLater &&
+        ! healLater &&
         destID != 0 &&
         ! modClick &&
         ourLiveObject->holdingID > 0 &&
@@ -14622,6 +14696,7 @@ void LivingLifePage::pointerDown( float inX, float inY ) {
     char useOnBabyLater = false;
     
     if( !killLater &&
+        !healLater &&
         p.hitOtherPerson &&
         ! modClick && 
         destID == 0 &&
@@ -14858,6 +14933,8 @@ void LivingLifePage::pointerDown( float inX, float inY ) {
                 if( killLater ) {
                     action = "KILL";
                     }
+                else if( healLater ) {
+                    action = "HEAL";
                 else {
                     // check for other special case
                     // a use-on-ground transition or use-on-floor transition
