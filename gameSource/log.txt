@@ -142,3 +142,731 @@ L5 | Fri Jun 15 15:20:36 2018 (675 ms) | general |    640 x 480
 L4 | Fri Jun 15 15:20:36 2018 (798 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
 
 L4 | Fri Jun 15 15:20:37 2018 (271 ms) | general | Recording game into file recordedGames/recordedGame00111.txt
+L4 | Sat Jun 16 15:36:25 2018 (577 ms) | general | New game starting up
+L4 | Sat Jun 16 15:36:25 2018 (577 ms) | general | Target game image size:  1024x600
+
+L4 | Sat Jun 16 15:36:25 2018 (577 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jun 16 15:36:25 2018 (577 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jun 16 15:36:25 2018 (577 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jun 16 15:36:25 2018 (577 ms) | general | 30 fps
+L4 | Sat Jun 16 15:36:25 2018 (577 ms) | general | 60 fps
+L4 | Sat Jun 16 15:36:25 2018 (577 ms) | general | 120 fps
+L4 | Sat Jun 16 15:36:25 2018 (577 ms) | general | 144 fps
+L4 | Sat Jun 16 15:36:25 2018 (578 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jun 16 15:36:25 2018 (578 ms) | general | Current screen configuration is 1920x950 with aspect ratio 2.02
+L4 | Sat Jun 16 15:36:25 2018 (578 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jun 16 15:36:25 2018 (578 ms) | general | Checking if requested video mode (1920x950) is available
+L4 | Sat Jun 16 15:36:25 2018 (578 ms) | general | Available video modes:
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    2560 x 1600
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    2048 x 1152
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1920 x 1440
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1920 x 1200
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1920 x 1080
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1920 x 950
+
+L4 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1856 x 1392
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1792 x 1344
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1680 x 1050
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1600 x 1200
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1600 x 900
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1440 x 900
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1400 x 1050
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1366 x 768
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1360 x 768
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1280 x 1024
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1280 x 960
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1280 x 800
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1280 x 768
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1280 x 720
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    1024 x 768
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    848 x 480
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    800 x 600
+
+L5 | Sat Jun 16 15:36:25 2018 (578 ms) | general |    640 x 480
+
+L4 | Sat Jun 16 15:36:25 2018 (711 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jun 16 15:36:26 2018 (156 ms) | general | Recording game into file recordedGames/recordedGame00001.txt
+L1 | Sat Jun 16 15:36:36 2018 (99 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x0_y0.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (99 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x0_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (99 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x1_y0.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (99 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x1_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (99 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x2_y0.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (99 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x2_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (99 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x3_y0.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (99 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x3_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (99 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x0_y1.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (99 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x0_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (99 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x1_y1.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x1_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x2_y1.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x2_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x3_y1.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x3_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x0_y2.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x0_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x1_y2.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x1_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x2_y2.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x2_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x3_y2.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x3_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x0_y3.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x0_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x1_y3.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x1_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x2_y3.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x2_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x3_y3.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (100 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_0_x3_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (600 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x0_y0.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (600 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x0_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (600 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x1_y0.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (600 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x1_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (600 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x2_y0.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (600 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x2_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (600 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x3_y0.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x3_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x0_y1.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x0_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x1_y1.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x1_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x2_y1.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x2_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x3_y1.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x3_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x0_y2.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x0_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x1_y2.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x1_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x2_y2.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x2_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x3_y2.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x3_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x0_y3.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x0_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x1_y3.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x1_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (601 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x2_y3.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (602 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x2_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (602 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x3_y3.tga does not exist
+L1 | Sat Jun 16 15:36:36 2018 (602 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_1_x3_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (110 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x0_y0.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (110 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x0_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (110 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x1_y0.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (110 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x1_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (110 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x2_y0.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (110 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x2_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x3_y0.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x3_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x0_y1.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x0_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x1_y1.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x1_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x2_y1.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x2_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x3_y1.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x3_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x0_y2.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x0_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x1_y2.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x1_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x2_y2.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x2_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x3_y2.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x3_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x0_y3.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x0_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x1_y3.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x1_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (111 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x2_y3.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x2_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x3_y3.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_2_x3_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (602 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x0_y0.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (602 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x0_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (602 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x1_y0.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (602 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x1_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (602 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x2_y0.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (602 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x2_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x3_y0.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x3_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x0_y1.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x0_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x1_y1.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x1_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x2_y1.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x2_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x3_y1.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x3_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x0_y2.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x0_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x1_y2.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (603 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x1_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x2_y2.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x2_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x3_y2.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x3_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x0_y3.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x0_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x1_y3.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x1_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x2_y3.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x2_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x3_y3.tga does not exist
+L1 | Sat Jun 16 15:36:37 2018 (604 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_3_x3_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x0_y0.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x0_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x1_y0.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x1_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x2_y0.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x2_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x3_y0.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x3_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x0_y1.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x0_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x1_y1.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x1_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x2_y1.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x2_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x3_y1.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x3_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x0_y2.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x0_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x1_y2.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x1_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (104 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x2_y2.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (105 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x2_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (105 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x3_y2.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (105 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x3_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (105 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x0_y3.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (105 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x0_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (105 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x1_y3.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (105 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x1_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (105 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x2_y3.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (105 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x2_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (105 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x3_y3.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (105 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_4_x3_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (591 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x0_y0.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (592 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x0_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (592 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x1_y0.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (592 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x1_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (592 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x2_y0.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (592 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x2_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (592 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x3_y0.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (592 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x3_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (592 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x0_y1.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (592 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x0_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (592 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x1_y1.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x1_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x2_y1.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x2_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x3_y1.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x3_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x0_y2.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x0_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x1_y2.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x1_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x2_y2.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x2_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x3_y2.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x3_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (593 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x0_y3.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (594 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x0_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (594 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x1_y3.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (594 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x1_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (594 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x2_y3.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (594 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x2_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (594 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x3_y3.tga does not exist
+L1 | Sat Jun 16 15:36:38 2018 (594 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_5_x3_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x0_y0.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x0_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x1_y0.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x1_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x2_y0.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x2_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x3_y0.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x3_y0_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x0_y1.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x0_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x1_y1.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x1_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x2_y1.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x2_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x3_y1.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x3_y1_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (112 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x0_y2.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x0_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x1_y2.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x1_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x2_y2.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x2_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x3_y2.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x3_y2_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x0_y3.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x0_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x1_y3.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x1_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x2_y3.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x2_y3_square.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x3_y3.tga does not exist
+L1 | Sat Jun 16 15:36:39 2018 (113 ms) | general | CRITICAL ERROR:  TGA file groundTileCache/biome_99999_x3_y3_square.tga does not exist
+L4 | Sat Jun 16 15:37:27 2018 (502 ms) | general | exiting...
+
+L4 | Sat Jun 16 15:37:27 2018 (502 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sat Jun 16 15:37:27 2018 (502 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sat Jun 16 15:37:27 2018 (782 ms) | general | Freeing sound sprites
+
+L4 | Sat Jun 16 15:37:27 2018 (782 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sat Jun 16 15:37:28 2018 (94 ms) | general | exiting: Deleting screen
+
+L4 | Sat Jun 16 15:37:28 2018 (94 ms) | general | exiting: freeing drawString
+
+L4 | Sat Jun 16 15:37:28 2018 (94 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sat Jun 16 15:37:28 2018 (111 ms) | general | exiting: Done.
+
+L4 | Sat Jun 16 15:40:30 2018 (110 ms) | general | New game starting up
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | Target game image size:  1024x600
+
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | 30 fps
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | 60 fps
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | 120 fps
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | 144 fps
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | Current screen configuration is 1920x950 with aspect ratio 2.02
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | Checking if requested video mode (1920x950) is available
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general | Available video modes:
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    2560 x 1600
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    2048 x 1152
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1920 x 1440
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1920 x 1200
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1920 x 1080
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1920 x 950
+
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1856 x 1392
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1792 x 1344
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1680 x 1050
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1600 x 1200
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1600 x 900
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1440 x 900
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1400 x 1050
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1366 x 768
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1360 x 768
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1280 x 1024
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1280 x 960
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1280 x 800
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1280 x 768
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1280 x 720
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    1024 x 768
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    848 x 480
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    800 x 600
+
+L5 | Sat Jun 16 15:40:30 2018 (111 ms) | general |    640 x 480
+
+L4 | Sat Jun 16 15:40:30 2018 (219 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jun 16 15:40:30 2018 (642 ms) | general | Recording game into file recordedGames/recordedGame00002.txt
+L4 | Sat Jun 16 15:41:14 2018 (525 ms) | general | exiting...
+
+L4 | Sat Jun 16 15:41:14 2018 (525 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sat Jun 16 15:41:14 2018 (525 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sat Jun 16 15:41:14 2018 (741 ms) | general | Freeing sound sprites
+
+L4 | Sat Jun 16 15:41:14 2018 (741 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sat Jun 16 15:41:15 2018 (49 ms) | general | exiting: Deleting screen
+
+L4 | Sat Jun 16 15:41:15 2018 (49 ms) | general | exiting: freeing drawString
+
+L4 | Sat Jun 16 15:41:15 2018 (49 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sat Jun 16 15:41:15 2018 (67 ms) | general | exiting: Done.
+
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | New game starting up
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | Target game image size:  1024x600
+
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | 30 fps
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | 60 fps
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | 120 fps
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | 144 fps
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | Current screen configuration is 1920x950 with aspect ratio 2.02
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | Checking if requested video mode (1920x950) is available
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general | Available video modes:
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    2560 x 1600
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    2048 x 1152
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1920 x 1440
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1920 x 1200
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1920 x 1080
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1920 x 950
+
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1856 x 1392
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1792 x 1344
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1680 x 1050
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1600 x 1200
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1600 x 900
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1440 x 900
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1400 x 1050
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1366 x 768
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1360 x 768
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1280 x 1024
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1280 x 960
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1280 x 800
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1280 x 768
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1280 x 720
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    1024 x 768
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    848 x 480
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    800 x 600
+
+L5 | Sat Jun 16 15:42:27 2018 (435 ms) | general |    640 x 480
+
+L4 | Sat Jun 16 15:42:27 2018 (543 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jun 16 15:42:28 2018 (2 ms) | general | Recording game into file recordedGames/recordedGame00003.txt
+L4 | Sat Jun 16 15:47:50 2018 (345 ms) | general | exiting...
+
+L4 | Sat Jun 16 15:47:50 2018 (345 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sat Jun 16 15:47:50 2018 (345 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sat Jun 16 15:47:50 2018 (579 ms) | general | Freeing sound sprites
+
+L4 | Sat Jun 16 15:47:50 2018 (579 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sat Jun 16 15:47:50 2018 (899 ms) | general | exiting: Deleting screen
+
+L4 | Sat Jun 16 15:47:50 2018 (899 ms) | general | exiting: freeing drawString
+
+L4 | Sat Jun 16 15:47:50 2018 (899 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sat Jun 16 15:47:50 2018 (916 ms) | general | exiting: Done.
+
+L4 | Sat Jun 16 15:56:39 2018 (69 ms) | general | New game starting up
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | Target game image size:  1024x600
+
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | 30 fps
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | 60 fps
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | 120 fps
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | 144 fps
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | Current screen configuration is 1920x950 with aspect ratio 2.02
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | Checking if requested video mode (1920x950) is available
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general | Available video modes:
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    2560 x 1600
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    2048 x 1152
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1920 x 1440
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1920 x 1200
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1920 x 1080
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1920 x 950
+
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1856 x 1392
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1792 x 1344
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1680 x 1050
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1600 x 1200
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1600 x 900
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1440 x 900
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1400 x 1050
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1366 x 768
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1360 x 768
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1280 x 1024
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1280 x 960
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1280 x 800
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1280 x 768
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1280 x 720
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    1024 x 768
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    848 x 480
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    800 x 600
+
+L5 | Sat Jun 16 15:56:39 2018 (70 ms) | general |    640 x 480
+
+L4 | Sat Jun 16 15:56:39 2018 (384 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jun 16 15:56:39 2018 (849 ms) | general | Recording game into file recordedGames/recordedGame00004.txt
+L4 | Sat Jun 16 16:18:04 2018 (311 ms) | general | exiting...
+
+L4 | Sat Jun 16 16:18:04 2018 (311 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sat Jun 16 16:18:04 2018 (311 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sat Jun 16 16:18:04 2018 (523 ms) | general | Freeing sound sprites
+
+L4 | Sat Jun 16 16:18:04 2018 (523 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sat Jun 16 16:18:04 2018 (840 ms) | general | exiting: Deleting screen
+
+L4 | Sat Jun 16 16:18:04 2018 (841 ms) | general | exiting: freeing drawString
+
+L4 | Sat Jun 16 16:18:04 2018 (841 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sat Jun 16 16:18:04 2018 (856 ms) | general | exiting: Done.
+
+L4 | Sat Jun 16 16:19:18 2018 (866 ms) | general | New game starting up
+L4 | Sat Jun 16 16:19:18 2018 (869 ms) | general | Target game image size:  1280x720
+
+L4 | Sat Jun 16 16:19:18 2018 (869 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jun 16 16:19:18 2018 (869 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jun 16 16:19:18 2018 (869 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jun 16 16:19:18 2018 (869 ms) | general | 30 fps
+L4 | Sat Jun 16 16:19:18 2018 (869 ms) | general | 60 fps
+L4 | Sat Jun 16 16:19:18 2018 (869 ms) | general | 120 fps
+L4 | Sat Jun 16 16:19:18 2018 (869 ms) | general | 144 fps
+L4 | Sat Jun 16 16:19:18 2018 (871 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jun 16 16:19:18 2018 (872 ms) | general | Current screen configuration is 1920x950 with aspect ratio 2.02
+L4 | Sat Jun 16 16:19:18 2018 (872 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jun 16 16:19:18 2018 (872 ms) | general | Checking if requested video mode (1920x950) is available
+L4 | Sat Jun 16 16:19:18 2018 (872 ms) | general | Available video modes:
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    2560 x 1600
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    2048 x 1152
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1920 x 1440
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1920 x 1200
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1920 x 1080
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1920 x 950
+
+L4 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1856 x 1392
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1792 x 1344
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1680 x 1050
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1600 x 1200
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1600 x 900
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1440 x 900
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1400 x 1050
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1366 x 768
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1360 x 768
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1280 x 1024
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1280 x 960
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1280 x 800
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1280 x 768
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1280 x 720
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    1024 x 768
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    848 x 480
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    800 x 600
+
+L5 | Sat Jun 16 16:19:18 2018 (872 ms) | general |    640 x 480
+
+L4 | Sat Jun 16 16:19:19 2018 (60 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jun 16 16:19:19 2018 (731 ms) | general | Recording game into file recordedGames/recordedGame00005.txt
+L4 | Sat Jun 16 16:34:20 2018 (18 ms) | general | New game starting up
+L4 | Sat Jun 16 16:34:20 2018 (33 ms) | general | Target game image size:  1024x600
+
+L4 | Sat Jun 16 16:34:20 2018 (44 ms) | general | Ideal window dimensions:  1280x720
+
+L4 | Sat Jun 16 16:34:20 2018 (53 ms) | general | Trying to start in fullscreen mode.
+L4 | Sat Jun 16 16:34:20 2018 (65 ms) | general | The following frame rates are considered possible:
+L4 | Sat Jun 16 16:34:20 2018 (65 ms) | general | 30 fps
+L4 | Sat Jun 16 16:34:20 2018 (65 ms) | general | 60 fps
+L4 | Sat Jun 16 16:34:20 2018 (65 ms) | general | 120 fps
+L4 | Sat Jun 16 16:34:20 2018 (65 ms) | general | 144 fps
+L4 | Sat Jun 16 16:34:20 2018 (96 ms) | general | Setting real (not borderless) fullscreen mode
+L4 | Sat Jun 16 16:34:20 2018 (96 ms) | general | Current screen configuration is 1920x950 with aspect ratio 2.02
+L4 | Sat Jun 16 16:34:20 2018 (96 ms) | general | Sticking with user's current screen resolution
+L4 | Sat Jun 16 16:34:20 2018 (96 ms) | general | Checking if requested video mode (1920x950) is available
+L4 | Sat Jun 16 16:34:20 2018 (96 ms) | general | Available video modes:
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    2560 x 1600
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    2048 x 1152
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1920 x 1440
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1920 x 1200
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1920 x 1080
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1920 x 950
+
+L4 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    ^^^^ this mode matches current aspect ratio
+L4 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    ^^^^ this mode matches requested mode
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1856 x 1392
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1792 x 1344
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1680 x 1050
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1600 x 1200
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1600 x 900
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1440 x 900
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1400 x 1050
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1366 x 768
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1360 x 768
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1280 x 1024
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1280 x 960
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1280 x 800
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1280 x 768
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1280 x 720
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    1024 x 768
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    848 x 480
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    800 x 600
+
+L5 | Sat Jun 16 16:34:20 2018 (96 ms) | general |    640 x 480
+
+L4 | Sat Jun 16 16:34:20 2018 (206 ms) | general | Successfully opened audio: 44100Hz (requested 44100Hz), sample buffer size=512 (requested 1024)
+
+L4 | Sat Jun 16 16:34:20 2018 (786 ms) | general | Recording game into file recordedGames/recordedGame00006.txt
+L4 | Sat Jun 16 16:34:46 2018 (571 ms) | general | exiting...
+
+L4 | Sat Jun 16 16:34:46 2018 (571 ms) | general | exiting: Deleting sceneHandler
+
+L4 | Sat Jun 16 16:34:46 2018 (571 ms) | general | exiting: calling SDL_CloseAudio
+
+L4 | Sat Jun 16 16:34:46 2018 (801 ms) | general | Freeing sound sprites
+
+L4 | Sat Jun 16 16:34:46 2018 (801 ms) | general | exiting: freeing frameDrawer
+
+L4 | Sat Jun 16 16:34:47 2018 (118 ms) | general | exiting: Deleting screen
+
+L4 | Sat Jun 16 16:34:47 2018 (118 ms) | general | exiting: freeing drawString
+
+L4 | Sat Jun 16 16:34:47 2018 (118 ms) | general | exiting: calling SDL_Quit()
+
+L4 | Sat Jun 16 16:34:47 2018 (136 ms) | general | exiting: Done.
+
