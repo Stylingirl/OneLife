@@ -3,6 +3,27 @@ This file only list changes to game code.  Changes to content can be found here:
 http://onehouronelife.com/updateLog.php
 
 
+Version 112    ???
+
+--Fixed category editor to let a category be picked on the parent side that is
+  also a child of another category (pattern categories can be part of other
+  categories now, like pink rose seeds, which are a pattern for other rose
+  seeds, but also in the small trash category).
+
+--Fixed search for limbs in objects that have no hands or feet.
+
+--Fixed so that you can mouse-over and click on a person standing behind a tree.
+
+
+
+Server Fixes:
+
+--Keeping server database backups 7 days instead of 14.
+
+
+
+
+
 Version 110    2018-June-14
 
 --Transition editor now includes category transitions in list of 'uses'
