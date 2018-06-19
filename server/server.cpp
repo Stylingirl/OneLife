@@ -932,6 +932,7 @@ typedef enum messageType {
     SREMV,
     DROP,
     KILL,
+    HEAL,
     SAY,
     MAP,
     TRIGGER,
@@ -1127,6 +1128,9 @@ ClientMessage parseMessage( LiveObject *inPlayer, char *inMessage ) {
         }
     else if( strcmp( nameBuffer, "KILL" ) == 0 ) {
         m.type = KILL;
+        }
+    else if( strcmp( nameBuffer, "HEAL" ) == 0 ) {
+        m.type = HEAL;
         }
     else if( strcmp( nameBuffer, "MAP" ) == 0 ) {
         m.type = MAP;
@@ -6341,25 +6345,6 @@ int main() {
                                             hitPlayer->errorCauseString =
                                                 "Player killed by other player";
                                         
-                                            logDeath( hitPlayer->id,
-                                                      hitPlayer->email,
-                                                      hitPlayer->isEve,
-                                                      computeAge( hitPlayer ),
-                                                      getSecondsPlayed( 
-                                                          hitPlayer ),
-                                                      ! getFemale( hitPlayer ),
-                                                      m.x, m.y,
-                                                      players.size() - 1,
-                                                      false,
-                                                      nextPlayer->id,
-                                                      nextPlayer->email );
-                                            
-                                            if( shutdownMode ) {
-                                                handleShutdownDeath( 
-                                                    hitPlayer, m.x, m.y );
-                                                }
-
-                                            hitPlayer->deathLogged = true;
                                             }
                                         }
                                     
@@ -6394,6 +6379,234 @@ int main() {
 
                                         // last use on actor specifies
                                         // what is left in victim's hand
+                                        TransRecord *woundHit = 
+                                            getPTrans( nextPlayer->holdingID, 
+                                                      0, true, false );
+                                        
+                                        if( woundHit != NULL &&
+                                            woundHit->newTarget > 0 ) {
+                                            
+                                            // don't drop their wound
+                                            if( hitPlayer->holdingID != 0 &&
+                                                ! hitPlayer->holdingWound ) {
+                                                handleDrop( 
+                                                    m.x, m.y, 
+                                                    hitPlayer,
+                                             &playerIndicesToSendUpdatesAbout );
+                                                }
+                                            hitPlayer->holdingID = 
+                                                woundHit->newTarget;
+                                            hitPlayer->holdingWound = true;
+                                            
+                                            playerIndicesToSendUpdatesAbout.
+                                                push_back( 
+                                                    getLiveObjectIndex( 
+                                                        hitPlayer->id ) );
+                                            }   
+                                        }
+                                    
+
+                                    int oldHolding = nextPlayer->holdingID;
+                                    timeSec_t oldEtaDecay = 
+                                        nextPlayer->holdingEtaDecay;
+
+                                    if( rHit != NULL ) {
+                                        // if hit trans exist
+                                        // leave bloody knife or
+                                        // whatever in hand
+                                        nextPlayer->holdingID = rHit->newActor;
+                                        }
+                                    else if( r != NULL ) {
+                                        nextPlayer->holdingID = r->newActor;
+                                        }
+
+
+                                    if( r != NULL || rHit != NULL ) {
+                                        
+                                        nextPlayer->heldTransitionSourceID = 0;
+                                        
+                                        if( oldHolding != 
+                                            nextPlayer->holdingID ) {
+                                            
+                                            setFreshEtaDecayForHeld( 
+                                                nextPlayer );
+                                            }
+                                        }
+                                    
+
+                                    if( r != NULL ) {
+                                    
+                                        if( hitPlayer != NULL &&
+                                            r->newTarget != 0 ) {
+                                        
+                                            hitPlayer->embeddedWeaponID = 
+                                                r->newTarget;
+                                        
+                                            if( oldHolding == r->newTarget ) {
+                                                // what we are holding
+                                                // is now embedded in them
+                                                // keep old decay
+                                                hitPlayer->
+                                                    embeddedWeaponEtaDecay =
+                                                    oldEtaDecay;
+                                                }
+                                            else {
+                                            
+                                                TransRecord *newDecayT = 
+                                                    getTrans( -1, 
+                                                              r->newTarget );
+                    
+                                                if( newDecayT != NULL ) {
+                                                    hitPlayer->
+                                                     embeddedWeaponEtaDecay = 
+                                                        Time::timeSec() + 
+                                                        newDecayT->
+                                                        autoDecaySeconds;
+                                                    }
+                                                else {
+                                                    // no further decay
+                                                    hitPlayer->
+                                                        embeddedWeaponEtaDecay 
+                                                        = 0;
+                                                    }
+                                                }
+                                            }
+                                        else if( hitPlayer == NULL &&
+                                                 isMapSpotEmpty( m.x, 
+                                                                 m.y ) ) {
+                                            // no player hit, and target ground
+                                            // spot is empty
+                                            setMapObject( m.x, m.y, 
+                                                          r->newTarget );
+                                        
+                                            // if we're thowing a weapon
+                                            // target is same as what we
+                                            // were holding
+                                            if( oldHolding == r->newTarget ) {
+                                                // preserve old decay time 
+                                                // of what we were holding
+                                                setEtaDecay( m.x, m.y,
+                                                             oldEtaDecay );
+                                                }
+                                            }
+                                        // else new target, post-kill-attempt
+                                        // is lost
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    else if( m.type == HEAL ) {
+                        // send update even if action fails (to let them
+                        // know that action is over)
+                        playerIndicesToSendUpdatesAbout.push_back( i );
+                        
+                        if( nextPlayer->holdingID > 0 &&
+                            ! (m.x == nextPlayer->xd &&
+                               m.y == nextPlayer->yd ) ) {
+                            
+                            nextPlayer->actionAttempt = 1;
+                            nextPlayer->actionTarget.x = m.x;
+                            nextPlayer->actionTarget.y = m.y;
+                            
+                            if( m.x > nextPlayer->xd ) {
+                                nextPlayer->facingOverride = 1;
+                                }
+                            else if( m.x < nextPlayer->xd ) {
+                                nextPlayer->facingOverride = -1;
+                                }
+
+                            // holding something
+                            ObjectRecord *heldObj = 
+                                getObject( nextPlayer->holdingID );
+                            
+                            if( heldObj->healingDistance > 0 ) {
+                                // it's a healing item
+
+                                GridPos targetPos = { m.x, m.y };
+                                GridPos playerPos = { nextPlayer->xd,
+                                                      nextPlayer->yd };
+                                
+                                double d = distance( targetPos,
+                                                     playerPos );
+                                
+                                if( heldObj->healingDistance >= d &&
+                                    ! directLineBlocked( playerPos, 
+                                                         targetPos ) ) {
+                                    // target is close enough
+                                    // and no blocking objects along the way
+                                    
+                                    // is anyone there?
+                                    LiveObject *hitPlayer = 
+                                        getHitPlayer( m.x, m.y, true );
+                                    
+                                    char someoneHit = false;
+
+                                    if( hitPlayer != NULL ) {
+                                        someoneHit = true;
+                                        // stop the staggering
+
+                                        hitPlayer->murderSourceID = -1;
+                                        
+                                        hitPlayer->murderPerpID = -1;
+                                        
+
+                                        setDeathReason( hitPlayer, 
+                                                        "",
+                                                        -1 );
+
+                                        // if not already dying
+                                        if( hitPlayer->dying ) {
+                                            hitPlayer->dying = false;
+                                            hitPlayer->dyingETA = 0;
+
+                                            // push next food decrement
+                                            // way in the future so they
+                                            // don't starve while staggering
+                                            // around
+                                            hitPlayer->foodDecrementETASeconds
+                                                = 0;
+                                            
+
+                                            playerIndicesToSendDyingAbout.
+                                                push_back( 
+                                                    getLiveObjectIndex( 
+                                                        hitPlayer->id ) );
+                                        
+                                            hitPlayer->errorCauseString =
+                                                "";
+                                        
+
+                                            hitPlayer->deathLogged = false;
+                                            }
+                                        }
+                                    
+                                    
+                                    // a player either hit or not
+                                    // in either case, healing tool was used
+                                    
+                                    // check for a transition for weapon
+
+                                    // 0 is generic "on person" target
+                                    TransRecord *r = 
+                                        getPTrans( nextPlayer->holdingID, 
+                                                  0 );
+
+                                    TransRecord *rHit = NULL;
+                                    
+                                    if( someoneHit ) {
+                                        // last use on target specifies
+                                        // healing object change on hit
+                                        // non-last use (r above) specifies
+                                        // what projectile ends up in grave
+                                        // or on ground
+                                        rHit = 
+                                            getPTrans( nextPlayer->holdingID, 
+                                                      0, false, true );
+                                        
+
+                                        // last use on actor specifies
+                                        // what is left in target's hand
                                         TransRecord *woundHit = 
                                             getPTrans( nextPlayer->holdingID, 
                                                       0, true, false );
@@ -8098,11 +8311,30 @@ int main() {
             
             double curTime = Time::getCurrentTime();
             
-            /*if( nextPlayer->dying && ! nextPlayer->error &&
+            if( nextPlayer->dying && ! nextPlayer->error &&
                 curTime >= nextPlayer->dyingETA ) {
                 // finally died
+                logDeath( nextPlayer->id,
+                            nextPlayer->email,
+                            nextPlayer->isEve,
+                            computeAge( nextPlayer ),
+                            getSecondsPlayed( 
+                                nextPlayer ),
+                            ! getFemale( nextPlayer ),
+                            nextPlayer->xs, nextPlayer->ys,
+                            players.size() - 1,
+                            false,
+                            nextPlayer->id,
+                            nextPlayer->email );
+                
+                if( shutdownMode ) {
+                    handleShutdownDeath( 
+                        nextPlayer, nextPlayer->xs, nextPlayer->ys );
+                    }
+
+                nextPlayer->deathLogged = true;
                 nextPlayer->error = true;
-                } */
+                }
             
 
                 
