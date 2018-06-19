@@ -6555,30 +6555,16 @@ int main() {
                                                         "",
                                                         -1 );
 
-                                        // if not already dying
-                                        if( hitPlayer->dying ) {
-                                            hitPlayer->dying = false;
-                                            hitPlayer->dyingETA = 0;
+                                        hitPlayer->dying = false;
+                                        hitPlayer->dyingETA = 0;
 
-                                            // push next food decrement
-                                            // way in the future so they
-                                            // don't starve while staggering
-                                            // around
-                                            hitPlayer->foodDecrementETASeconds
-                                                = 0;
-                                            
-
-                                            playerIndicesToSendDyingAbout.
-                                                push_back( 
-                                                    getLiveObjectIndex( 
-                                                        hitPlayer->id ) );
-                                        
-                                            hitPlayer->errorCauseString =
-                                                "";
+                                        // bring back next food decrement
+                                        hitPlayer->foodDecrementETASeconds
+                                            = 0;
                                         
 
-                                            hitPlayer->deathLogged = false;
-                                            }
+                                        hitPlayer->errorCauseString =
+                                            "";
                                         }
                                     
                                     
@@ -6607,12 +6593,12 @@ int main() {
 
                                         // last use on actor specifies
                                         // what is left in target's hand
-                                        TransRecord *woundHit = 
+                                        TransRecord *healHit = 
                                             getPTrans( nextPlayer->holdingID, 
                                                       0, true, false );
                                         
-                                        if( woundHit != NULL &&
-                                            woundHit->newTarget > 0 ) {
+                                        if( healHit != NULL &&
+                                            healHit->newTarget > 0 ) {
                                             
                                             // don't drop their wound
                                             if( hitPlayer->holdingID != 0 &&
@@ -6623,8 +6609,8 @@ int main() {
                                              &playerIndicesToSendUpdatesAbout );
                                                 }
                                             hitPlayer->holdingID = 
-                                                woundHit->newTarget;
-                                            hitPlayer->holdingWound = true;
+                                                healHit->newTarget;
+                                            hitPlayer->holdingWound = false;
                                             
                                             playerIndicesToSendUpdatesAbout.
                                                 push_back( 
@@ -6640,7 +6626,7 @@ int main() {
 
                                     if( rHit != NULL ) {
                                         // if hit trans exist
-                                        // leave bloody knife or
+                                        // leave leftover healing object or
                                         // whatever in hand
                                         nextPlayer->holdingID = rHit->newActor;
                                         }
@@ -6707,7 +6693,7 @@ int main() {
                                             setMapObject( m.x, m.y, 
                                                           r->newTarget );
                                         
-                                            // if we're thowing a weapon
+                                            // if we're thowing an object
                                             // target is same as what we
                                             // were holding
                                             if( oldHolding == r->newTarget ) {
@@ -6717,7 +6703,7 @@ int main() {
                                                              oldEtaDecay );
                                                 }
                                             }
-                                        // else new target, post-kill-attempt
+                                        // else new target, post-heal-attempt
                                         // is lost
                                         }
                                     }
